@@ -1,0 +1,2805 @@
+<!doctype html>
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  HEAVEN FORSBERG — THE ENCHANTED CREATIVE UNIVERSE               ║
+  ║  Pure HTML + CSS. No JavaScript, no frameworks, no build needed. ║
+  ║                                                                  ║
+  ║  Files:   index.html  ·  style.css  ·  images/                   ║
+  ║  To view: double-click index.html, or publish on GitHub Pages.   ║
+  ║                                                                  ║
+  ║  Search for "UPDATE ME" to find every spot you can easily edit.  ║
+  ╚══════════════════════════════════════════════════════════════════╝
+-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heaven Forsberg — Digital Creative, Artist &amp; IndigiTECH Graduate</title>
+  <meta name="description"
+    content="Step into the enchanted creative universe of Heaven Forsberg — a Grande Prairie-based digital creative, artist, and IFA IndigiTECH graduate exploring where creativity meets technology." />
+  <meta name="author" content="Heaven Forsberg" />
+  <meta name="theme-color" content="#150A26" />
+
+  <!-- ══ Site address ══ UPDATE ME: change the URL here if the site ever moves. -->
+  <link rel="canonical" href="https://hf0rsberg.portfolio.arena.site/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Heaven Forsberg — Creative Universe" />
+  <meta property="og:url" content="https://hf0rsberg.portfolio.arena.site/" />
+  <meta property="og:title" content="Heaven Forsberg — Where Creativity Meets Curiosity" />
+  <meta property="og:description"
+    content="An enchanted portfolio of art, design, handmade craft, and a growing journey into technology." />
+  <meta property="og:image" content="https://hf0rsberg.portfolio.arena.site/images/hero-portal.webp" />
+  <meta property="og:image:alt"
+    content="Heaven Forsberg's enchanted portfolio — a moonlit world of crystals, ferns and stars." />
+  <meta property="og:locale" content="en_CA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://hf0rsberg.portfolio.arena.site/" />
+  <meta name="twitter:title" content="Heaven Forsberg — Where Creativity Meets Curiosity" />
+  <meta name="twitter:description"
+    content="Digital creative, artist and IFA IndigiTECH graduate. Art, design, handmade craft, and a growing journey into technology." />
+  <meta name="twitter:image" content="https://hf0rsberg.portfolio.arena.site/images/hero-portal.webp" />
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Heaven Forsberg",
+        "url": "https://hf0rsberg.portfolio.arena.site/",
+        "image": "https://hf0rsberg.portfolio.arena.site/images/heaven-profile.jpg",
+        "email": "mailto:hlcforsberg97@gmail.com",
+        "jobTitle": "Digital Creative & Artist",
+        "description": "Multidisciplinary creative and IFA IndigiTECH graduate exploring where creativity meets technology.",
+        "address": { "@type": "PostalAddress", "addressLocality": "Grande Prairie", "addressRegion": "AB", "addressCountry": "CA" },
+        "alumniOf": { "@type": "Organization", "name": "Indigenous Friends Association — IndigiTECH Mentorship Program" },
+        "knowsAbout": ["Graphic Design", "Digital Art", "Social Media Marketing", "Web Development", "UX Design", "Sewing", "Photography"],
+        "sameAs": ["https://www.linkedin.com/in/hf0rsberg/", "https://tunescape-music.neocities.org/"]
+      }
+    </script>
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23190D2B'/%3E%3Cpath d='M40.5 12a21 21 0 1 0 12.8 33.4A23 23 0 0 1 40.5 12Z' fill='%23E8C77B'/%3E%3Cpath d='M23 48c0-7 4-12 9-12s9 5 9 12Z' fill='%2310B981'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Invisible fixed anchor: "close" links point here so the page never jumps. -->
+  <span id="close" class="close-anchor" aria-hidden="true"></span>
+
+  <!-- ═══════════ SVG SPRITE: icons + illustrations used throughout ═══════════ -->
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="g-cap" cx="45%" cy="35%" r="70%">
+        <stop offset="0%" stop-color="#c4a7ff" />
+        <stop offset="55%" stop-color="#8b5cf6" />
+        <stop offset="100%" stop-color="#4c1d95" />
+      </radialGradient>
+      <radialGradient id="g-glow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#4ade9f" stop-opacity=".45" />
+        <stop offset="100%" stop-color="#4ade9f" stop-opacity="0" />
+      </radialGradient>
+      <linearGradient id="g-amethyst" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#e9d5ff" stop-opacity=".92" />
+        <stop offset="48%" stop-color="#a78bfa" stop-opacity=".88" />
+        <stop offset="100%" stop-color="#4c1d95" stop-opacity=".92" />
+      </linearGradient>
+      <linearGradient id="g-emerald" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#6ee7b7" stop-opacity=".88" />
+        <stop offset="100%" stop-color="#065f46" stop-opacity=".92" />
+      </linearGradient>
+      <radialGradient id="g-crystal-glow" cx="50%" cy="55%" r="50%">
+        <stop offset="0%" stop-color="#a78bfa" stop-opacity=".35" />
+        <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+
+    <symbol id="ladybug" viewBox="0 0 30 26">
+      <ellipse cx="15" cy="14" rx="8.5" ry="9.5" fill="#d94a5c" />
+      <path d="M15 5.2C10.6 5.2 9 9.6 9 14.5S11.5 22 15 22s6-2.6 6-7.5S19.4 5.2 15 5.2Z" fill="#b73547" opacity=".55" />
+      <path d="M15 5.4v17" stroke="#31131d" stroke-width="1.1" fill="none" />
+      <ellipse cx="15" cy="5.4" rx="4.2" ry="3.8" fill="#27131c" />
+      <circle cx="11.5" cy="12" r="1.4" fill="#2b141d" />
+      <circle cx="18.5" cy="11.4" r="1.25" fill="#2b141d" />
+      <circle cx="12" cy="18" r="1.15" fill="#2b141d" />
+      <circle cx="18" cy="17.4" r="1.3" fill="#2b141d" />
+      <path d="M11.8 3.2 9 .8M18.2 3.2 21 .8" stroke="#27131c" stroke-width="1" stroke-linecap="round" fill="none" />
+    </symbol>
+
+    <symbol id="mushrooms" viewBox="0 0 140 100">
+      <ellipse cx="72" cy="86" rx="58" ry="12" fill="url(#g-glow)" />
+      <path d="M33 84c1-20 8-31 19-31s17 11 18 31" fill="#e8d9c4" opacity=".92" />
+      <path d="M29 51c1-14 10-23 23-23s22 9 23 23c0 5-9 8-23 8s-23-3-23-8Z" fill="url(#g-cap)" />
+      <circle cx="43" cy="43" r="3" fill="#f5e9ff" opacity=".8" />
+      <circle cx="61" cy="37" r="2.2" fill="#f5e9ff" opacity=".65" />
+      <circle cx="55" cy="49" r="1.6" fill="#f5e9ff" opacity=".55" />
+      <path d="M80 86c0-13 5-21 13-21s12 8 13 21" fill="#dcc8ae" opacity=".92" />
+      <path d="M77 61c1-9 7-15 16-15s15 6 16 15c0 3-7 5-16 5s-16-2-16-5Z" fill="url(#g-cap)" opacity=".85" />
+      <path d="M107 88c0-9 3-15 8-15s8 6 8 15" fill="#e3d2bb" opacity=".82" />
+      <path d="M105 71c1-6 4-10 10-10s9 4 10 10c0 2-4 4-10 4s-10-2-10-4Z" fill="#6d5cae" />
+      <circle cx="112" cy="65" r="1.4" fill="#f5e9ff" opacity=".7" />
+      <path d="M25 88c-5-9-4-17 1-19 4 2 5 9 2 18" fill="#10b981" opacity=".55" />
+      <path d="M118 90c4-10 3-19-3-21-4 3-4 11 0 20" fill="#10b981" opacity=".45" />
+      <circle cx="21" cy="63" r="1" fill="#e8c77b" />
+      <circle cx="121" cy="49" r="1.2" fill="#e8c77b" />
+    </symbol>
+
+    <symbol id="crystals" viewBox="0 0 170 170">
+      <ellipse cx="85" cy="120" rx="76" ry="40" fill="url(#g-crystal-glow)" />
+      <path d="M86 26l18 30-9 62-24 8-8-46Z" fill="url(#g-amethyst)" />
+      <path d="M86 26l18 30-24 12-8-24Z" fill="#f3e8ff" opacity=".42" />
+      <path d="M46 58l16 22-3 46-22 5-4-38Z" fill="url(#g-amethyst)" opacity=".85" />
+      <path d="M46 58l16 22-18 8-13-16Z" fill="#f3e8ff" opacity=".3" />
+      <path d="M118 68l13 19-4 38-18 4-3-31Z" fill="url(#g-emerald)" />
+      <path d="M118 68l13 19-20 7-7-16Z" fill="#d1fae5" opacity=".35" />
+      <path d="M84 104l7 14-9 8-12-7Z" fill="#7c3aed" opacity=".8" />
+      <circle cx="37" cy="39" r="1.7" fill="#e8c77b" />
+      <circle cx="131" cy="38" r="1.2" fill="#e8c77b" />
+      <circle cx="145" cy="92" r="1.6" fill="#e9d5ff" />
+      <path d="M25 131c8-5 16-6 24-4M119 131c8-4 17-3 25 2" stroke="#10b981" stroke-width="1.2" stroke-linecap="round"
+        opacity=".55" fill="none" />
+    </symbol>
+
+    <symbol id="star4" viewBox="0 0 24 24">
+      <path d="M12 1.8l2.7 7.5L22 12l-7.3 2.7L12 22.2l-2.7-7.5L2 12l7.3-2.7z" fill="currentColor" stroke="none" />
+    </symbol>
+    <symbol id="gem-mark" viewBox="0 0 12 14">
+      <path d="M6 .8 11 4.4 9.2 12 6 13.4 2.8 12 1 4.4Z" fill="currentColor" stroke="none" />
+      <path d="M6 1.4v11.5L2.2 5.4Z" fill="#fff" opacity=".25" stroke="none" />
+    </symbol>
+    <symbol id="leaf-sprig" viewBox="0 0 80 40">
+      <path d="M4 36C22 30 40 20 76 4" fill="none" stroke="currentColor" stroke-width="1.2" />
+      <path
+        d="M22 29c-4-8-2-15 6-18 2 8-1 14-6 18ZM40 21c-2-9 2-15 10-16 0 8-4 13-10 16ZM58 12c0-8 5-12 12-12-1 7-6 11-12 12ZM30 26c8-3 15-1 18 6-8 2-14 0-18-6ZM48 17c8-2 14 1 16 8-8 1-13-2-16-8Z"
+        fill="currentColor" stroke="none" opacity=".85" />
+    </symbol>
+
+    <!-- line icons -->
+    <symbol id="i-sparkles" viewBox="0 0 24 24">
+      <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" />
+      <path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z" />
+    </symbol>
+    <symbol id="i-book" viewBox="0 0 24 24">
+      <path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2zM22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z" />
+    </symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24">
+      <rect x="9" y="2" width="6" height="12" rx="3" />
+      <path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4M8 22h8" />
+    </symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24">
+      <circle cx="6" cy="6" r="3" />
+      <circle cx="6" cy="18" r="3" />
+      <path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12" />
+    </symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24">
+      <path
+        d="M12 2a10 10 0 0 0 0 20c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.3-.3-.4-.5-.8-.5-1.3 0-1.1.9-2 2-2h2.4A4.6 4.6 0 0 0 22 10.8C22 5.9 17.5 2 12 2z" />
+      <circle cx="7.5" cy="10.5" r="1" />
+      <circle cx="10.5" cy="6.5" r="1" />
+      <circle cx="15.5" cy="7" r="1" />
+    </symbol>
+    <symbol id="i-mushroom" viewBox="0 0 24 24">
+      <path d="M3 12a9 7.5 0 0 1 18 0z" />
+      <path d="M9 12v6a3 3 0 0 0 6 0v-6" />
+      <circle cx="9" cy="8" r=".8" />
+      <circle cx="14.5" cy="7" r=".8" />
+    </symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24">
+      <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z" />
+      <path d="M2 21c0-3 1.9-5.4 5.2-6.1C9.5 14.4 12 13 13 12" />
+    </symbol>
+    <symbol id="i-gem" viewBox="0 0 24 24">
+      <path d="M6 3h12l4 6-10 12L2 9z" />
+      <path d="M2 9h20M12 21 8 9l3-6M12 21l4-12-3-6" />
+    </symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24">
+      <path d="M18 11V6a2 2 0 0 0-4 0v4M14 10V4a2 2 0 0 0-4 0v6M10 10.5V6a2 2 0 0 0-4 0v8" />
+      <path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.9-5.9-2.4L3 16.5a2 2 0 0 1 3-2.6L8 16" />
+    </symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24">
+      <path d="M12 19l7-7 3 3-7 7zM18 13l-1.5-7.5L2 2l3.5 14.5L13 18zM2 2l7.6 7.6" />
+      <circle cx="11" cy="11" r="2" />
+    </symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24">
+      <path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3M7 15h10" />
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24">
+      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z" />
+      <circle cx="12" cy="13" r="3" />
+    </symbol>
+    <symbol id="i-code" viewBox="0 0 24 24">
+      <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+    </symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24">
+      <path d="M3 3v18h18M8 17v-5M13 17V8M18 17v-9" />
+    </symbol>
+    <symbol id="i-music" viewBox="0 0 24 24">
+      <path d="M9 18V5l12-2v13" />
+      <circle cx="6" cy="18" r="3" />
+      <circle cx="18" cy="16" r="3" />
+    </symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24">
+      <path
+        d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z" />
+    </symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24">
+      <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+    </symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+    </symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <path d="m16.2 7.8-2.1 6.4-6.4 2.1 2.1-6.4z" />
+    </symbol>
+    <symbol id="i-brush" viewBox="0 0 24 24">
+      <path
+        d="M9.1 11.1 18 2.2a1.9 1.9 0 0 1 2.8 2.8l-8.9 8.9M7 14c-1.7 0-3 1.3-3 3 0 1.3-2 2-2 2 1 1.5 3 2 4.5 2a4 4 0 0 0 4-4c0-1.7-1.3-3-3-3z" />
+    </symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24">
+      <path
+        d="M7 20h10M10 20c5.5-2.5.8-6.4 3-10M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8zM14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" />
+    </symbol>
+    <symbol id="i-bug" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="14" rx="6" ry="7" />
+      <path d="M12 7v14M9 4l1.5 2M15 4l-1.5 2M6 11H3M6 16H3M18 11h3M18 16h3" />
+    </symbol>
+    <symbol id="i-mountain" viewBox="0 0 24 24">
+      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+      <circle cx="12" cy="10" r="3" />
+    </symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24">
+      <path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c3 3 9 3 12 0v-5" />
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <rect x="2" y="4" width="20" height="16" rx="2" />
+      <path d="m22 7-10 6L2 7" />
+    </symbol>
+    <symbol id="i-file" viewBox="0 0 24 24">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8" />
+    </symbol>
+    <symbol id="i-down" viewBox="0 0 24 24">
+      <path d="M12 5v14M19 12l-7 7-7-7" />
+    </symbol>
+    <symbol id="i-up" viewBox="0 0 24 24">
+      <path d="M12 19V5M5 12l7-7 7 7" />
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M7 17 17 7M7 7h10v10" />
+    </symbol>
+    <symbol id="i-x" viewBox="0 0 24 24">
+      <path d="M18 6 6 18M6 6l12 12" />
+    </symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24">
+      <path d="m15 18-6-6 6-6" />
+    </symbol>
+    <symbol id="i-next" viewBox="0 0 24 24">
+      <path d="m9 18 6-6-6-6" />
+    </symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24">
+      <path d="M4 7h16M4 12h16M4 17h16" />
+    </symbol>
+    <symbol id="i-send" viewBox="0 0 24 24">
+      <path d="m22 2-7 20-4-9-9-4zM22 2 11 13" />
+    </symbol>
+    <symbol id="i-feather" viewBox="0 0 24 24">
+      <path d="M20.2 12.2a6 6 0 0 0-8.5-8.5L5 10.5V19h8.5zM16 8 2 22M17.5 15H9" />
+    </symbol>
+    <symbol id="i-award" viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="6" />
+      <path d="M15.5 13 17 22l-5-3-5 3 1.5-9" />
+    </symbol>
+    <symbol id="i-info" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 16v-4M12 8h.01" />
+    </symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24">
+      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+    </symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24">
+      <path fill="currentColor" stroke="none"
+        d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05a3.75 3.75 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z" />
+    </symbol>
+  </svg>
+
+  <!-- ═══════════════════════════ NAVIGATION ═══════════════════════════ -->
+  <header class="nav">
+    <div class="nav-progress" aria-hidden="true"></div>
+    <div class="shell">
+      <div class="nav-inner">
+        <a href="#top" class="brand" aria-label="Heaven Forsberg — back to the top">
+          <span class="monogram" aria-hidden="true">HF</span>
+          <span class="brand-text">
+            <strong>Heaven Forsberg</strong>
+            <small>Creative Universe</small>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#studio">Studio</a>
+          <a href="#gallery">Artwork</a>
+          <a href="#journey">IndigiTECH</a>
+          <a href="#toolbox">Toolbox</a>
+          <a href="#marketing">Marketing</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <!-- Theme switch: a checkbox styled as a sun/moon toggle -->
+          <input type="checkbox" id="theme-toggle" class="theme-input" role="switch"
+            aria-label="Moonlit Garden light theme" />
+          <label for="theme-toggle" class="theme-switch" title="Switch between Enchanted Night and Moonlit Garden">
+            <svg class="i ts-sun" aria-hidden="true">
+              <use href="#i-sun" />
+            </svg>
+            <svg class="i ts-moon" aria-hidden="true">
+              <use href="#i-moon" />
+            </svg>
+            <span class="knob" aria-hidden="true"></span>
+          </label>
+
+          <button type="button" class="btn btn-gold btn-sm nav-resume" popovertarget="resume">
+            <svg class="i" aria-hidden="true">
+              <use href="#i-file" />
+            </svg> Résumé
+          </button>
+
+          <a href="#menu" class="menu-btn menu-open" aria-label="Open navigation menu">
+            <svg class="i" aria-hidden="true">
+              <use href="#i-menu" />
+            </svg>
+          </a>
+          <a href="#close" class="menu-btn menu-close" aria-label="Close navigation menu">
+            <svg class="i" aria-hidden="true">
+              <use href="#i-x" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu (opens with #menu, closes when any link is chosen) -->
+  <div id="menu" class="mobile-sheet" role="dialog" aria-label="Site navigation">
+    <nav aria-label="Mobile navigation">
+      <a href="#top">Welcome <span>01</span></a>
+      <a href="#about">About <span>02</span></a>
+      <a href="#studio">Studio <span>03</span></a>
+      <a href="#gallery">Artwork <span>04</span></a>
+      <a href="#journey">IndigiTECH <span>05</span></a>
+      <a href="#toolbox">Toolbox <span>06</span></a>
+      <a href="#marketing">Marketing <span>07</span></a>
+      <a href="#experience">Experience <span>08</span></a>
+      <a href="#contact">Contact <span>09</span></a>
+    </nav>
+    <div class="sheet-foot">
+      <p class="sheet-quote">Where creativity meets <em>curiosity.</em></p>
+      <a href="mailto:hlcforsberg97@gmail.com" class="btn btn-primary btn-block">Send me an email</a>
+      <a href="https://www.linkedin.com/in/hf0rsberg/" class="btn btn-ghost btn-block" target="_blank"
+        rel="noopener noreferrer">Connect on LinkedIn</a>
+      <button type="button" class="btn btn-ghost btn-block" popovertarget="resume">View my résumé</button>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ═══════════════════════ 1 · HERO ═══════════════════════ -->
+    <section id="top" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="blob blob-a" aria-hidden="true"></div>
+      <div class="blob blob-b" aria-hidden="true"></div>
+
+      <svg class="hero-constellation draw-on-scroll" viewBox="0 0 240 240" aria-hidden="true">
+        <g class="c-lines">
+          <path d="M28 68 74 42l52 18 31-24 47 38" />
+          <path d="M76 43l10 70 58-15 25 44" />
+          <path d="M144 98l52-18 20 29" />
+        </g>
+        <g class="c-dots">
+          <circle cx="28" cy="68" r="2" />
+          <circle cx="74" cy="42" r="2.6" />
+          <circle cx="126" cy="60" r="1.8" />
+          <circle cx="157" cy="36" r="2.2" />
+          <circle cx="204" cy="74" r="1.7" />
+          <circle cx="86" cy="113" r="1.6" />
+          <circle cx="144" cy="98" r="2.1" />
+          <circle cx="169" cy="142" r="1.5" />
+          <circle cx="216" cy="109" r="1.8" />
+        </g>
+      </svg>
+
+      <svg class="hero-mushrooms mushroom-glow" aria-hidden="true">
+        <use href="#mushrooms" />
+      </svg>
+
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="chip-row">
+            <span class="chip chip-emerald"><span class="dot" aria-hidden="true"></span> Open to opportunities</span>
+            <span class="chip"><svg class="i" aria-hidden="true">
+                <use href="#i-pin" />
+              </svg> Grande Prairie, AB</span>
+          </div>
+
+          <p class="hero-kicker"><svg class="i" aria-hidden="true">
+              <use href="#i-sparkles" />
+            </svg> Welcome to my universe</p>
+          <h1 id="hero-heading" class="hero-title">
+            <span class="first">Heaven</span>
+            <span class="last">Forsberg</span>
+          </h1>
+          <p class="hero-tagline">Where creativity meets curiosity.</p>
+
+          <div class="hero-rule" aria-hidden="true"></div>
+          <p class="hero-roles">
+            <span>Digital Creative</span><span class="sep" aria-hidden="true">✦</span>
+            <span>Artist</span><span class="sep" aria-hidden="true">✦</span>
+            <span>IndigiTECH Graduate</span><span class="sep" aria-hidden="true">✦</span>
+            <span>Aspiring Technology Professional</span>
+          </p>
+          <p class="lede">
+            Welcome to my little corner of the universe — where art, technology, and imagination come together. I'm a
+            multidisciplinary creative passionate about digital design, handmade artistry, storytelling, and exploring
+            the endless possibilities of technology.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#gallery" class="btn btn-primary">Explore my work <svg class="i" aria-hidden="true">
+                <use href="#i-down" />
+              </svg></a>
+            <a href="#studio" class="btn btn-ghost">Step into my studio</a>
+            <a href="#contact" class="text-link">Let's connect <svg class="i" aria-hidden="true">
+                <use href="#i-arrow" />
+              </svg></a>
+          </div>
+
+          <div class="chip-row hero-proof" aria-label="Background highlights">
+            <span class="chip"><svg class="i" aria-hidden="true">
+                <use href="#i-cap" />
+              </svg> IFA IndigiTECH · 2026</span>
+            <span class="chip">Web · Digital Art · Business · UX</span>
+            <span class="chip">Talhtan First Nation · Crow Clan</span>
+          </div>
+
+          <div class="hero-foot">
+            <a href="#about" class="hero-scroll"><span class="hero-scroll-line" aria-hidden="true"></span> Scroll to
+              explore</a>
+
+            <!-- Easter egg: a star that reveals rotating affirmations -->
+            <details class="wish">
+              <summary><svg class="i" aria-hidden="true">
+                  <use href="#i-sparkles" />
+                </svg> Make a wish</summary>
+              <div class="wish-card">
+                <p class="mono-label">A little affirmation</p>
+                <p class="wish-cycle">
+                  <span>Your curiosity is a skill. Keep following it.</span>
+                  <span>Make the small thing. It might become the beginning of everything.</span>
+                  <span>There is room for your story in technology.</span>
+                  <span>Create at your own pace. The forest does not rush.</span>
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="orbital orbital-1" aria-hidden="true"></div>
+          <div class="orbital orbital-2" aria-hidden="true"></div>
+
+          <!--
+              ╔══════════════════════════════════════════════════════════════╗
+              ║  UPDATE ME — PROFILE PHOTO                                   ║
+              ║  Save Heaven's photo in the "images" folder named exactly:   ║
+              ║        heaven-profile.jpg                                    ║
+              ║  It appears in this hero arch AND in the About section.      ║
+              ║  If the file is missing, the moonlit forest artwork shows    ║
+              ║  here instead, so the page never looks broken.               ║
+              ║  To re-frame the photo, edit the "--hero-photo-focus" and    ║
+              ║  "--photo-*" values under "Profile photo" in style.css.      ║
+              ╚══════════════════════════════════════════════════════════════╝
+            -->
+          <figure class="arch">
+            <img src="images/hero-portal.webp"
+              alt="Portrait of Heaven Forsberg smiling, with vibrant pink and purple hair, gold-rimmed glasses and a light blue top in front of tie-dye tapestries."
+              width="820" height="1038" class="arch-img" fetchpriority="high" />
+            <figcaption class="arch-caption"><svg class="i" aria-hidden="true">
+                <use href="#i-sparkles" />
+              </svg> Heaven Forsberg · Grande Prairie, AB</figcaption>
+          </figure>
+
+          <div class="orbit-badge" aria-hidden="true">
+            <svg viewBox="0 0 124 124">
+              <defs>
+                <path id="orbit-path" d="M62,62 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" />
+              </defs>
+              <circle cx="62" cy="62" r="60" fill="none" stroke="rgba(232,199,123,.3)" />
+              <circle cx="62" cy="62" r="35" fill="none" stroke="rgba(196,167,255,.24)" stroke-dasharray="2 6" />
+              <text class="orbit-text">
+                <textPath href="#orbit-path">Dream · Create · Grow · Always Curious · Dream · Create · Grow ·</textPath>
+              </text>
+              <path d="M62 47l4.2 10.8L77 62l-10.8 4.2L62 77l-4.2-10.8L47 62l10.8-4.2z" fill="#e8c77b" />
+            </svg>
+          </div>
+
+          <div class="hero-portrait">
+            <span class="hp-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-sparkles" />
+              </svg></span>
+            <span class="hp-text">
+              <span class="hp-hello">Hi, I'm Heaven</span>
+              <span class="hp-role">Artist &amp; maker</span>
+            </span>
+          </div>
+          <div class="float-card fc-2" aria-hidden="true"><span class="fc-icon e"><svg class="i">
+                <use href="#i-cap" />
+              </svg></span> IndigiTECH '26</div>
+
+          <svg class="hero-crystals" aria-hidden="true">
+            <use href="#crystals" />
+          </svg>
+          <span class="ladybug lb-hero" tabindex="0" role="img" aria-label="A tiny hidden ladybug"
+            data-note="You found a ladybug! 🍀">
+            <svg aria-hidden="true">
+              <use href="#ladybug" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 2 · ABOUT ═══════════════════════ -->
+    <section id="about" class="section section-line" aria-labelledby="about-heading">
+      <div class="shell">
+        <div class="about-grid">
+          <div class="about-copy">
+            <header class="sec-head reveal">
+              <span class="eyebrow">A little about me</span>
+              <h2 id="about-heading" class="section-title">The creative <em>behind the magic.</em></h2>
+              <p class="script">A heart for making, a mind for learning.</p>
+              <p class="lede">
+                I'm Heaven — a multidisciplinary creative based in Grande Prairie, Alberta, and a member of Talhtan
+                First
+                Nation, part of the Crow Clan.
+              </p>
+            </header>
+
+            <div class="prose reveal">
+              <p>
+                My background moves between social media management, digital marketing, graphic design, and content
+                creation. I love the space where storytelling and making meet — whether that's a promotional graphic, a
+                stitched detail, a painted canvas, or a page on the web.
+              </p>
+              <p>
+                In 2026, I completed the Indigenous Friends Association's 12-week
+                <strong>IndigiTECH Mentorship Program</strong>, building foundations in web development, digital art,
+                business, and UX design. I'm familiar with HTML, CSS, Figma, and a range of digital design tools — and
+                I'm passionate about learning new technologies and pursuing a long-term career in the field.
+              </p>
+              <p>
+                I'm experienced in public speaking, client engagement, and creative problem-solving. Outside of screens,
+                I'm usually reading, singing, sewing, painting, or making something with my hands in my own creative
+                studio, <em class="serif-em">Altered Scraps</em>. I love mushrooms, ladybugs, plants, crystals,
+                mountains, crows, and the night sky — small, odd, beautiful things.
+              </p>
+              <div class="chip-row">
+                <span class="chip">Public speaking</span>
+                <span class="chip">Client engagement</span>
+                <span class="chip">Creative problem-solving</span>
+                <span class="chip">Always learning</span>
+              </div>
+            </div>
+
+            <div class="next-card reveal">
+              <span class="icon-tile" aria-hidden="true"><svg class="i">
+                  <use href="#i-feather" />
+                </svg></span>
+              <div>
+                <p class="mono-label">The next chapter</p>
+                <p>
+                  Looking for an entry-level technology apprenticeship where I can contribute a creative perspective,
+                  learn from a real team, and keep growing — with intention.
+                </p>
+              </div>
+              <a href="#journey" class="text-link">My journey <svg class="i" aria-hidden="true">
+                  <use href="#i-arrow" />
+                </svg></a>
+            </div>
+          </div>
+
+          <aside class="crest-card reveal" aria-label="Quick facts about Heaven">
+            <svg class="crest-rings" viewBox="0 0 170 170" aria-hidden="true">
+              <circle cx="85" cy="85" r="80" />
+              <circle cx="85" cy="85" r="64" stroke-dasharray="2 7" />
+              <path d="M85 5v12M85 153v12M5 85h12M153 85h12" />
+            </svg>
+            <p class="mono-label">The person behind the portfolio</p>
+            <div class="crest-id">
+              <div class="portrait-frame">
+                <span class="portrait portrait-lg">
+                  <img src="images/hero-portal.webp" alt="Portrait of Heaven Forsberg" width="112" height="112" />
+                </span>
+                <svg class="portrait-star" aria-hidden="true">
+                  <use href="#star4" />
+                </svg>
+              </div>
+              <div>
+                <h3>Heaven Forsberg</h3>
+                <p class="crest-role">Multidisciplinary creative</p>
+              </div>
+            </div>
+            <p class="script">Made of stories, stitches &amp; starlight.</p>
+            <ul class="facts">
+              <li class="fact"><span class="fact-icon" aria-hidden="true"><svg class="i">
+                    <use href="#i-pin" />
+                  </svg></span>
+                <div><span class="dt">Based in</span><span class="dd">Grande Prairie, Alberta</span></div>
+              </li>
+              <li class="fact"><span class="fact-icon" aria-hidden="true"><svg class="i">
+                    <use href="#i-feather" />
+                  </svg></span>
+                <div><span class="dt">Nation</span><span class="dd">Talhtan First Nation · Crow Clan</span></div>
+              </li>
+              <li class="fact"><span class="fact-icon" aria-hidden="true"><svg class="i">
+                    <use href="#i-cap" />
+                  </svg></span>
+                <div><span class="dt">Recently completed</span><span class="dd">12-week IFA IndigiTECH Mentorship</span>
+                </div>
+              </li>
+              <li class="fact"><span class="fact-icon" aria-hidden="true"><svg class="i">
+                    <use href="#i-scissors" />
+                  </svg></span>
+                <div><span class="dt">Creative studio</span><span class="dd">Altered Scraps — her own handmade
+                    practice</span></div>
+              </li>
+            </ul>
+            <p class="status-pill"><span class="dot" aria-hidden="true"></span> Open to apprenticeship &amp; junior
+              creative opportunities</p>
+            <span class="ladybug lb-crest" tabindex="0" role="img" aria-label="A tiny hidden ladybug"
+              data-note="Another lucky ladybug!">
+              <svg aria-hidden="true">
+                <use href="#ladybug" />
+              </svg>
+            </span>
+          </aside>
+        </div>
+
+        <div class="sub-head reveal">
+          <div>
+            <span class="eyebrow">In my own little world</span>
+            <h3 class="sub-title">The things that make me, <em>me.</em></h3>
+          </div>
+          <p class="script">A few favourite ways to spend a day.</p>
+        </div>
+
+        <ul class="interest-grid" aria-label="Interests">
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-book" />
+              </svg></span><span class="num" aria-hidden="true">01</span>
+            <h4>Bookworm</h4>
+            <p>Stories, poetry and quiet chapters.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-mic" />
+              </svg></span><span class="num" aria-hidden="true">02</span>
+            <h4>Singer</h4>
+            <p>Always a song close by.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-scissors" />
+              </svg></span><span class="num" aria-hidden="true">03</span>
+            <h4>Sewing Enthusiast</h4>
+            <p>Stitch by stitch, with patience.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-palette" />
+              </svg></span><span class="num" aria-hidden="true">04</span>
+            <h4>Artist &amp; Painter</h4>
+            <p>Colour, texture and happy mess.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-mushroom" />
+              </svg></span><span class="num" aria-hidden="true">05</span>
+            <h4>Mushroom Lover</h4>
+            <p>Tiny woodland wonders.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-leaf" />
+              </svg></span><span class="num" aria-hidden="true">06</span>
+            <h4>Plant Enthusiast</h4>
+            <p>Growing green things slowly.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-sparkles" />
+              </svg></span><span class="num" aria-hidden="true">07</span>
+            <h4>Cosmic Dreamer</h4>
+            <p>Head forever among the stars.</p>
+          </li>
+          <li class="interest-card"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                <use href="#i-gem" />
+              </svg></span><span class="num" aria-hidden="true">08</span>
+            <h4>Crystal Admirer</h4>
+            <p>Light held inside stone.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 3 · STUDIO ═══════════════════════ -->
+    <section id="studio" class="section studio" aria-labelledby="studio-heading">
+      <div class="shell">
+        <header class="sec-head reveal">
+          <span class="eyebrow">My creative studio</span>
+          <h2 id="studio-heading" class="section-title">Welcome to my <em>creative studio.</em></h2>
+          <p class="script">Made with imagination, patience, and a little bit of magic.</p>
+          <p class="lede">
+            My studio practice is less about a perfect finished thing and more about the pleasure of figuring something
+            out. Painting, sewing, digital art, crafts, photographs, and creative experiments — different mediums, the
+            same curious hands.
+          </p>
+        </header>
+
+        <div class="studio-grid">
+          <figure class="studio-photo reveal">
+            <img src="images/studio.webp"
+              alt="Illustrated studio moodboard: a cozy plum-walled art studio with an easel, sewing machine, sketchbooks, plants, crystals and a crescent moon in the window."
+              width="1400" height="933" loading="lazy" />
+            <span class="photo-tag"><svg class="i" aria-hidden="true">
+                <use href="#i-sparkles" />
+              </svg> Studio moodboard · illustrated</span>
+            <figcaption>
+              <strong>A little chaos, a lot of care.</strong>
+              <span>Paintbrushes in jars, fabric scraps, sketchbooks, crystals, and plants that have quietly taken over
+                the windowsill.</span>
+            </figcaption>
+            <span class="ladybug lb-studio" tabindex="0" role="img" aria-label="A tiny hidden ladybug"
+              data-note="Ladybugs love studios too.">
+              <svg aria-hidden="true">
+                <use href="#ladybug" />
+              </svg>
+            </span>
+          </figure>
+
+          <div class="paper-panel reveal">
+            <span class="tape tape-top" aria-hidden="true"></span>
+            <p class="mono-label">An artist's note</p>
+            <blockquote>
+              I like the part where an idea is still messy — when you're testing a colour, reworking a seam, or learning
+              a new tool. That's where the real making happens.
+            </blockquote>
+            <p class="paper-body">
+              Creating is how I slow down and pay attention. I explore different artistic mediums because each one
+              teaches me a new way to solve a problem, notice a detail, and bring a thought into the world.
+            </p>
+            <div class="signature">
+              <div>
+                <p class="script">Heaven</p>
+                <p class="mono-label">Artist &amp; maker</p>
+              </div>
+              <span class="stamp" aria-hidden="true">Altered<br />Scraps</span>
+            </div>
+            <div class="swatches" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-between reveal">
+          <p class="mono-label">A place for every kind of curiosity</p>
+          <a href="#gallery" class="text-link">Explore the gallery <svg class="i" aria-hidden="true">
+              <use href="#i-arrow" />
+            </svg></a>
+        </div>
+
+        <ul class="studio-cats" aria-label="Studio mediums">
+          <li class="studio-cat"><span class="round-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-palette" />
+              </svg></span>
+            <div>
+              <h3>Painting</h3>
+              <p>Colour, texture, intuition</p>
+            </div>
+          </li>
+          <li class="studio-cat"><span class="round-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-scissors" />
+              </svg></span>
+            <div>
+              <h3>Sewing</h3>
+              <p>Fabric, thread, small details</p>
+            </div>
+          </li>
+          <li class="studio-cat"><span class="round-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-hand" />
+              </svg></span>
+            <div>
+              <h3>Handmade Crafts</h3>
+              <p>Made slowly by hand</p>
+            </div>
+          </li>
+          <li class="studio-cat"><span class="round-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-pen" />
+              </svg></span>
+            <div>
+              <h3>Digital Art</h3>
+              <p>Illustration and design</p>
+            </div>
+          </li>
+          <li class="studio-cat"><span class="round-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-flask" />
+              </svg></span>
+            <div>
+              <h3>Creative Experiments</h3>
+              <p>Ideas in progress</p>
+            </div>
+          </li>
+          <li class="studio-cat"><span class="round-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-camera" />
+              </svg></span>
+            <div>
+              <h3>Photography</h3>
+              <p>Noticing the little things</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 4 · GALLERY ═══════════════════════ -->
+    <section id="gallery" class="section section-line gallery" aria-labelledby="gallery-heading">
+      <div class="shell">
+        <div class="sec-row">
+          <header class="sec-head reveal">
+            <span class="eyebrow">Artwork portfolio</span>
+            <h2 id="gallery-heading" class="section-title">Little pieces of <em>my imagination.</em></h2>
+            <p class="script">A collection of things I've dreamed, designed, painted, stitched, and created.</p>
+          </header>
+          <aside class="note-card reveal">
+            <p class="note-title"><svg class="i" aria-hidden="true">
+                <use href="#i-info" />
+              </svg> About these pieces</p>
+            <p>
+              Every piece in this gallery is Heaven's own work, made between 2023 and 2026. Select any piece to read
+              its story, materials and year.
+            </p>
+          </aside>
+        </div>
+
+        <!-- Category filters (pure CSS radio buttons) -->
+        <fieldset class="filters">
+          <legend class="sr-only">Filter artwork by category</legend>
+          <input type="radio" name="filter" id="f-all" checked /><label for="f-all">All Creations</label>
+          <input type="radio" name="filter" id="f-paintings" /><label for="f-paintings">Paintings</label>
+          <input type="radio" name="filter" id="f-digital" /><label for="f-digital">Digital Art</label>
+          <input type="radio" name="filter" id="f-sewing" /><label for="f-sewing">Sewing</label>
+          <input type="radio" name="filter" id="f-crafts" /><label for="f-crafts">Handmade Crafts</label>
+          <input type="radio" name="filter" id="f-photography" /><label for="f-photography">Photography</label>
+        </fieldset>
+
+        <!--
+            ╔═══════════════════════════════════════════════════════════════╗
+            ║  UPDATE ME — HOW TO ADD OR REPLACE ARTWORK                    ║
+            ║                                                               ║
+            ║  1. Put your photo in the "images" folder.                    ║
+            ║  2. Copy one whole <article class="art-card"> … </article>.   ║
+            ║  3. Change:                                                   ║
+            ║     • data-cat = paintings | digital | sewing | crafts |      ║
+            ║                  photography   (controls the filter tabs)     ║
+            ║     • the two image paths + alt text                          ║
+            ║     • title, medium, year, description, process notes         ║
+            ║     • the id "art-7" and href="#art-7" (must match, unique)   ║
+            ║     • prev / next links so the lightbox arrows loop nicely    ║
+            ║  4. Add the image, then update the badge text if you like.    ║
+            ║  Shape options: r-4x5, r-3x4, r-1x1, r-5x4, r-tall, r-wide    ║
+            ╚═══════════════════════════════════════════════════════════════╝
+          -->
+        <div class="masonry">
+          <!-- ─────────── ARTWORK 1 ─────────── -->
+          <article class="art-card" data-cat="paintings">
+            <a class="art-link" href="#art-1">
+              <span class="art-media r-wide">
+                <img src="images/painting-1.webp"
+                  alt="Don't Trip Mac Portrait — an acrylic painting of rapper Mac Miller on a glass pane in a picture frame."
+                  loading="lazy" width="1200" height="669" />
+                <span class="art-badge">Heaven's artwork</span>
+                <span class="art-open" aria-hidden="true"><svg class="i">
+                    <use href="#i-expand" />
+                  </svg></span>
+              </span>
+              <span class="art-body">
+                <span class="art-cat">Paintings</span>
+                <span class="art-title">“Don’t Trip Mac Portrait”</span>
+                <span class="art-meta">Acrylic Paint on Glass <span aria-hidden="true">✦</span> 2023</span>
+              </span>
+            </a>
+            <div class="lightbox" id="art-1" role="dialog" aria-modal="true" aria-labelledby="art-1-title">
+              <a href="#close" class="lb-scrim" tabindex="-1" aria-hidden="true"></a>
+              <div class="lb-panel">
+                <div class="lb-media">
+                  <img src="images/painting-1.webp"
+                    alt="Don't Trip Mac Portrait — an acrylic painting of rapper Mac Miller on a glass pane in a picture frame."
+                    loading="lazy" />
+                  <span class="art-badge">Heaven's artwork</span>
+                  <a href="#close" class="lb-btn lb-close" aria-label="Close artwork details"><svg class="i"
+                      aria-hidden="true">
+                      <use href="#i-x" />
+                    </svg></a>
+                </div>
+                <div class="lb-body">
+                  <p class="lb-top"><span class="mono-label">Paintings</span><span class="lb-count">01 / 06</span></p>
+                  <h3 id="art-1-title" class="lb-title">“Don’t Trip Mac Portrait”</h3>
+                  <dl class="lb-meta">
+                    <div>
+                      <dt>Medium</dt>
+                      <dd>Acrylic Paint on Glass</dd>
+                    </div>
+                    <div>
+                      <dt>Year</dt>
+                      <dd>2023</dd>
+                    </div>
+                  </dl>
+                  <p class="lb-desc">This portrait of rapper Mac Miller was created on a glass pane in a picture frame.
+                    Instead of the traditional way of painting — working from the background up to the foreground and
+                    details — I worked backward: from the details and foreground to the background.</p>
+                  <div class="lb-process">
+                    <p class="mono-label">Why I made it</p>
+                    <p>I created this painting because I am a fan of Mac Miller's music, and because I was offered a
+                      place in a silent art auction at a music concert where my husband's and friends' bands were
+                      performing.</p>
+                  </div>
+                  <nav class="lb-nav" aria-label="Artwork navigation">
+                    <a href="#art-6" class="lb-btn" aria-label="Previous artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-prev" />
+                      </svg></a>
+                    <a href="#art-2" class="lb-btn" aria-label="Next artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-next" />
+                      </svg></a>
+                    <a href="#close" class="text-link">Close</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─────────── ARTWORK 2 ─────────── -->
+          <article class="art-card" data-cat="digital">
+            <a class="art-link" href="#art-2">
+              <span class="art-media r-tall">
+                <img src="images/digital-1.webp"
+                  alt="IFA Capstone Project Background — a tall digital painting of stereos and speakers in purple and emerald brand colours."
+                  loading="lazy" width="700" height="1640" />
+                <span class="art-badge">Heaven's artwork</span>
+                <span class="art-open" aria-hidden="true"><svg class="i">
+                    <use href="#i-expand" />
+                  </svg></span>
+              </span>
+              <span class="art-body">
+                <span class="art-cat">Digital Art</span>
+                <span class="art-title">“IFA Capstone Project Background”</span>
+                <span class="art-meta">Digital Painting through Krita <span aria-hidden="true">✦</span> 2026</span>
+              </span>
+            </a>
+            <div class="lightbox" id="art-2" role="dialog" aria-modal="true" aria-labelledby="art-2-title">
+              <a href="#close" class="lb-scrim" tabindex="-1" aria-hidden="true"></a>
+              <div class="lb-panel">
+                <div class="lb-media">
+                  <img src="images/digital-1.webp"
+                    alt="IFA Capstone Project Background — a tall digital painting of stereos and speakers in purple and emerald brand colours."
+                    loading="lazy" />
+                  <span class="art-badge">Heaven's artwork</span>
+                  <a href="#close" class="lb-btn lb-close" aria-label="Close artwork details"><svg class="i"
+                      aria-hidden="true">
+                      <use href="#i-x" />
+                    </svg></a>
+                </div>
+                <div class="lb-body">
+                  <p class="lb-top"><span class="mono-label">Digital Art</span><span class="lb-count">02 / 06</span></p>
+                  <h3 id="art-2-title" class="lb-title">“IFA Capstone Project Background”</h3>
+                  <dl class="lb-meta">
+                    <div>
+                      <dt>Medium</dt>
+                      <dd>Digital Painting through Krita</dd>
+                    </div>
+                    <div>
+                      <dt>Year</dt>
+                      <dd>2026</dd>
+                    </div>
+                  </dl>
+                  <p class="lb-desc">I wanted a background image featuring stereos and speakers to relate to my Capstone
+                    Project topic. I found an image I liked online, recreated it in the brand's colours, and used it as
+                    the background across my project's webpages.</p>
+                  <nav class="lb-nav" aria-label="Artwork navigation">
+                    <a href="#art-1" class="lb-btn" aria-label="Previous artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-prev" />
+                      </svg></a>
+                    <a href="#art-3" class="lb-btn" aria-label="Next artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-next" />
+                      </svg></a>
+                    <a href="#close" class="text-link">Close</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─────────── ARTWORK 3 ─────────── -->
+          <article class="art-card" data-cat="sewing">
+            <a class="art-link" href="#art-3">
+              <span class="art-media r-3x4">
+                <img src="images/sewing-1.webp"
+                  alt="TMNT Forever — an upcycled patchwork sweater with large hand-sewn Ninja Turtles patches and logo."
+                  loading="lazy" width="1050" height="1400" />
+                <span class="art-badge">Heaven's artwork</span>
+                <span class="art-open" aria-hidden="true"><svg class="i">
+                    <use href="#i-expand" />
+                  </svg></span>
+              </span>
+              <span class="art-body">
+                <span class="art-cat">Sewing</span>
+                <span class="art-title">“TMNT Forever”</span>
+                <span class="art-meta">Upcycled Patchwork Sweater <span aria-hidden="true">✦</span> 2024</span>
+              </span>
+            </a>
+            <div class="lightbox" id="art-3" role="dialog" aria-modal="true" aria-labelledby="art-3-title">
+              <a href="#close" class="lb-scrim" tabindex="-1" aria-hidden="true"></a>
+              <div class="lb-panel">
+                <div class="lb-media">
+                  <img src="images/sewing-1.webp"
+                    alt="TMNT Forever — an upcycled patchwork sweater with large hand-sewn Ninja Turtles patches and logo."
+                    loading="lazy" />
+                  <span class="art-badge">Heaven's artwork</span>
+                  <a href="#close" class="lb-btn lb-close" aria-label="Close artwork details"><svg class="i"
+                      aria-hidden="true">
+                      <use href="#i-x" />
+                    </svg></a>
+                </div>
+                <div class="lb-body">
+                  <p class="lb-top"><span class="mono-label">Sewing</span><span class="lb-count">03 / 06</span></p>
+                  <h3 id="art-3-title" class="lb-title">“TMNT Forever”</h3>
+                  <dl class="lb-meta">
+                    <div>
+                      <dt>Medium</dt>
+                      <dd>Upcycled Patchwork Sweater</dd>
+                    </div>
+                    <div>
+                      <dt>Year</dt>
+                      <dd>2024</dd>
+                    </div>
+                  </dl>
+                  <p class="lb-desc">I made this sweater from upcycled materials — a toddler couch and a thrifted
+                    sweater. I cut out large patches of Ninja Turtles images and the logo from a toddler fold-out couch,
+                    and sewed them onto the sweater.</p>
+                  <div class="lb-process">
+                    <p class="mono-label">Why I made it</p>
+                    <p>I made this for my older brother as a Christmas gift because he is a Ninja Turtle fan. Anyone who
+                      sees it loves it and compliments him.</p>
+                  </div>
+                  <nav class="lb-nav" aria-label="Artwork navigation">
+                    <a href="#art-2" class="lb-btn" aria-label="Previous artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-prev" />
+                      </svg></a>
+                    <a href="#art-4" class="lb-btn" aria-label="Next artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-next" />
+                      </svg></a>
+                    <a href="#close" class="text-link">Close</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─────────── ARTWORK 4 ─────────── -->
+          <article class="art-card" data-cat="crafts">
+            <a class="art-link" href="#art-4">
+              <span class="art-media r-5x4">
+                <img src="images/crafts-1.webp"
+                  alt="Merch Case — a hand-painted acoustic bass guitar case covered in colourful Angry Outdoor Kids artwork."
+                  loading="lazy" width="1200" height="960" />
+                <span class="art-badge">Heaven's artwork</span>
+                <span class="art-open" aria-hidden="true"><svg class="i">
+                    <use href="#i-expand" />
+                  </svg></span>
+              </span>
+              <span class="art-body">
+                <span class="art-cat">Handmade Crafts</span>
+                <span class="art-title">“Merch Case”</span>
+                <span class="art-meta">Spray paint, airbrush, paint markers, acoustic bass guitar case <span
+                    aria-hidden="true">✦</span> 2023</span>
+              </span>
+            </a>
+            <div class="lightbox" id="art-4" role="dialog" aria-modal="true" aria-labelledby="art-4-title">
+              <a href="#close" class="lb-scrim" tabindex="-1" aria-hidden="true"></a>
+              <div class="lb-panel">
+                <div class="lb-media">
+                  <img src="images/crafts-1.webp"
+                    alt="Merch Case — a hand-painted acoustic bass guitar case covered in colourful Angry Outdoor Kids artwork."
+                    loading="lazy" />
+                  <span class="art-badge">Heaven's artwork</span>
+                  <a href="#close" class="lb-btn lb-close" aria-label="Close artwork details"><svg class="i"
+                      aria-hidden="true">
+                      <use href="#i-x" />
+                    </svg></a>
+                </div>
+                <div class="lb-body">
+                  <p class="lb-top"><span class="mono-label">Handmade Crafts</span><span class="lb-count">04 / 06</span>
+                  </p>
+                  <h3 id="art-4-title" class="lb-title">“Merch Case”</h3>
+                  <dl class="lb-meta">
+                    <div>
+                      <dt>Medium</dt>
+                      <dd>Spray paint, airbrush, paint markers, acoustic bass guitar case</dd>
+                    </div>
+                    <div>
+                      <dt>Year</dt>
+                      <dd>2023</dd>
+                    </div>
+                  </dl>
+                  <p class="lb-desc">A friend left a guitar case at my house, and I decided to try out a new airbrush
+                    compressor my father bought for my paintings. My husband spray-painted “Angry Outdoor Kids” over the
+                    lids, and I used my airbrush to bring more colour and dimension to the logo. In a few spots not
+                    painted with the airbrush, we filled them in with paint markers.</p>
+                  <div class="lb-process">
+                    <p class="mono-label">Where it lives now</p>
+                    <p>We use the case as a merch bin for my husband's concerts.</p>
+                  </div>
+                  <nav class="lb-nav" aria-label="Artwork navigation">
+                    <a href="#art-3" class="lb-btn" aria-label="Previous artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-prev" />
+                      </svg></a>
+                    <a href="#art-5" class="lb-btn" aria-label="Next artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-next" />
+                      </svg></a>
+                    <a href="#close" class="text-link">Close</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─────────── ARTWORK 5 ─────────── -->
+          <article class="art-card" data-cat="photography">
+            <a class="art-link" href="#art-5">
+              <span class="art-media r-3x4">
+                <img src="images/photography-1.webp"
+                  alt="Athabasca Falls near Jasper, Alberta — a photograph by Heaven Forsberg." loading="lazy"
+                  width="535" height="713" />
+                <span class="art-badge">Heaven's artwork</span>
+                <span class="art-open" aria-hidden="true"><svg class="i">
+                    <use href="#i-expand" />
+                  </svg></span>
+              </span>
+              <span class="art-body">
+                <span class="art-cat">Photography</span>
+                <span class="art-title">“Athabasca Falls”</span>
+                <span class="art-meta">Camera and editing tools <span aria-hidden="true">✦</span> May 2025</span>
+              </span>
+            </a>
+            <div class="lightbox" id="art-5" role="dialog" aria-modal="true" aria-labelledby="art-5-title">
+              <a href="#close" class="lb-scrim" tabindex="-1" aria-hidden="true"></a>
+              <div class="lb-panel">
+                <div class="lb-media">
+                  <img src="images/photography-1.webp"
+                    alt="Athabasca Falls near Jasper, Alberta — a photograph by Heaven Forsberg." loading="lazy" />
+                  <span class="art-badge">Heaven's artwork</span>
+                  <a href="#close" class="lb-btn lb-close" aria-label="Close artwork details"><svg class="i"
+                      aria-hidden="true">
+                      <use href="#i-x" />
+                    </svg></a>
+                </div>
+                <div class="lb-body">
+                  <p class="lb-top"><span class="mono-label">Photography</span><span class="lb-count">05 / 06</span></p>
+                  <h3 id="art-5-title" class="lb-title">“Athabasca Falls”</h3>
+                  <dl class="lb-meta">
+                    <div>
+                      <dt>Medium</dt>
+                      <dd>Camera and editing tools</dd>
+                    </div>
+                    <div>
+                      <dt>Year</dt>
+                      <dd>May 2025</dd>
+                    </div>
+                  </dl>
+                  <p class="lb-desc">I took this photo at the Athabasca Falls near Jasper, Alberta, on a weekend trip
+                    with friends. The Rocky Mountains are breathtaking, and the Jasper area is my favourite place to
+                    visit and explore.</p>
+                  <div class="lb-process">
+                    <p class="mono-label">Why it matters to me</p>
+                    <p>I have been a photography fan for most of my life, looking through countless photo albums my
+                      grandparents and parents made over the years. Taking on this generational tradition feels very
+                      special and sentimental to me — carrying on this gift of capturing precious moments everywhere I
+                      go.</p>
+                  </div>
+                  <nav class="lb-nav" aria-label="Artwork navigation">
+                    <a href="#art-4" class="lb-btn" aria-label="Previous artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-prev" />
+                      </svg></a>
+                    <a href="#art-6" class="lb-btn" aria-label="Next artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-next" />
+                      </svg></a>
+                    <a href="#close" class="text-link">Close</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─────────── ARTWORK 6 ─────────── -->
+          <article class="art-card" data-cat="crafts">
+            <a class="art-link" href="#art-6">
+              <span class="art-media r-4x5">
+                <img src="images/experiments-1.webp"
+                  alt="Bees & Honey Vest — a painted, upcycled denim jacket with floral fabric panels and a large freehand-painted design."
+                  loading="lazy" width="1000" height="1250" />
+                <span class="art-badge">Heaven's artwork</span>
+                <span class="art-open" aria-hidden="true"><svg class="i">
+                    <use href="#i-expand" />
+                  </svg></span>
+              </span>
+              <span class="art-body">
+                <span class="art-cat">Handmade Crafts</span>
+                <span class="art-title">“Bees &amp; Honey Vest”</span>
+                <span class="art-meta">Upcycled materials, thrifted jean jacket, and acrylic paint <span
+                    aria-hidden="true">✦</span> 2023</span>
+              </span>
+            </a>
+            <div class="lightbox" id="art-6" role="dialog" aria-modal="true" aria-labelledby="art-6-title">
+              <a href="#close" class="lb-scrim" tabindex="-1" aria-hidden="true"></a>
+              <div class="lb-panel">
+                <div class="lb-media">
+                  <img src="images/experiments-1.webp"
+                    alt="Bees & Honey Vest — a painted, upcycled denim jacket with floral fabric panels and a large freehand-painted design."
+                    loading="lazy" />
+                  <span class="art-badge">Heaven's artwork</span>
+                  <a href="#close" class="lb-btn lb-close" aria-label="Close artwork details"><svg class="i"
+                      aria-hidden="true">
+                      <use href="#i-x" />
+                    </svg></a>
+                </div>
+                <div class="lb-body">
+                  <p class="lb-top"><span class="mono-label">Handmade Crafts</span><span class="lb-count">06 / 06</span>
+                  </p>
+                  <h3 id="art-6-title" class="lb-title">“Bees &amp; Honey Vest”</h3>
+                  <dl class="lb-meta">
+                    <div>
+                      <dt>Medium</dt>
+                      <dd>Upcycled materials, thrifted jean jacket, and acrylic paint</dd>
+                    </div>
+                    <div>
+                      <dt>Year</dt>
+                      <dd>2023</dd>
+                    </div>
+                  </dl>
+                  <p class="lb-desc">I created this one-of-a-kind, painted, upcycled Angry Outdoor Kids vest for my
+                    sister-in-law's birthday. I thrifted the jean jacket, cut off the sleeves, sewed on floral material,
+                    and freehand-painted a large design on the back panel and front panels.</p>
+                  <nav class="lb-nav" aria-label="Artwork navigation">
+                    <a href="#art-5" class="lb-btn" aria-label="Previous artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-prev" />
+                      </svg></a>
+                    <a href="#art-1" class="lb-btn" aria-label="Next artwork"><svg class="i" aria-hidden="true">
+                        <use href="#i-next" />
+                      </svg></a>
+                    <a href="#close" class="text-link">Close</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- Waiting card (always visible) -->
+          <div class="art-add">
+            <span class="add-icon" aria-hidden="true"><svg class="i">
+                <use href="#i-sparkles" />
+              </svg></span>
+            <p class="add-title">Always something new.</p>
+            <p>
+              The gallery keeps growing — there are always paintings, fabric, sketches and half-finished ideas on the
+              go. New pieces will be added here as they're finished.
+            </p>
+            <details class="simple-details">
+              <summary><svg class="i" aria-hidden="true">
+                  <use href="#i-sparkles" />
+                </svg> How to add artwork</summary>
+              <p>
+                Add the photo to the <code>images</code> folder, then copy any artwork block in <code>index.html</code>
+                and update its title, medium, year and description. Look for the “UPDATE ME” note above the gallery.
+              </p>
+            </details>
+          </div>
+        </div>
+
+        <div class="divider" aria-hidden="true"><span></span><svg viewBox="0 0 80 40">
+            <use href="#leaf-sprig" />
+          </svg><span></span></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 5 · INDIGITECH JOURNEY ═══════════════════════ -->
+    <section id="journey" class="section journey" aria-labelledby="journey-heading">
+      <div class="shell">
+        <div class="night-panel reveal">
+          <div class="stars" aria-hidden="true"></div>
+          <div class="night-inner">
+            <div class="night-head">
+              <div>
+                <p class="night-kicker"><svg class="i" aria-hidden="true">
+                    <use href="#i-sparkles" />
+                  </svg> IndigiTECH · my journey into technology</p>
+                <h2 id="journey-heading" class="night-title">Where creativity meets <em>technology.</em></h2>
+                <p class="night-lede">
+                  In 2026, I completed the Indigenous Friends Association's 12-week IndigiTECH Mentorship Program. It
+                  was
+                  a space to build real foundations, ask a lot of questions, and discover how naturally my creative
+                  instincts translate into technology.
+                </p>
+              </div>
+              <div class="night-chips">
+                <span class="n-chip gold"><svg class="i" aria-hidden="true">
+                    <use href="#i-cap" />
+                  </svg> Completed 2026</span>
+                <span class="n-chip">12-week mentorship</span>
+                <span class="n-chip">Web · Art · Business · UX</span>
+              </div>
+            </div>
+
+            <div class="journey-grid">
+              <!-- Constellation of certificates (radio buttons = keyboard-friendly tabs) -->
+              <fieldset class="ms-map">
+                <legend class="sr-only">Choose an IndigiTECH certificate to learn more</legend>
+                <svg class="ms-lines draw-on-scroll" viewBox="0 0 100 100" preserveAspectRatio="none"
+                  aria-hidden="true">
+                  <path d="M24 17 50 48 77 31M50 48 71 78M50 48 25 68" />
+                </svg>
+
+                <input type="radio" name="ms" id="ms-web" checked />
+                <label for="ms-web" class="ms ms-1">
+                  <span class="star-node"><svg class="i" aria-hidden="true">
+                      <use href="#i-code" />
+                    </svg></span>
+                  <span class="ms-text"><small>Certificate 01</small><strong>Web Development</strong><em>Structure &amp;
+                      the web</em></span>
+                </label>
+
+                <input type="radio" name="ms" id="ms-art" />
+                <label for="ms-art" class="ms ms-2">
+                  <span class="star-node"><svg class="i" aria-hidden="true">
+                      <use href="#i-palette" />
+                    </svg></span>
+                  <span class="ms-text"><small>Certificate 02</small><strong>Digital Art</strong><em>Ideas made
+                      visual</em></span>
+                </label>
+
+                <input type="radio" name="ms" id="ms-biz" />
+                <label for="ms-biz" class="ms ms-3">
+                  <span class="star-node"><svg class="i" aria-hidden="true">
+                      <use href="#i-chart" />
+                    </svg></span>
+                  <span class="ms-text"><small>Certificate 03</small><strong>Business</strong><em>Creative work, real
+                      world</em></span>
+                </label>
+
+                <input type="radio" name="ms" id="ms-ux" />
+                <label for="ms-ux" class="ms ms-4">
+                  <span class="star-node"><svg class="i" aria-hidden="true">
+                      <use href="#i-compass" />
+                    </svg></span>
+                  <span class="ms-text"><small>Certificate 04</small><strong>UX Design</strong><em>Designing for
+                      people</em></span>
+                </label>
+
+                <div class="ms-core" aria-hidden="true"><span>IFA</span><small>Indigi<br />TECH</small></div>
+              </fieldset>
+
+              <div class="ms-panels">
+                <div class="ms-panel" data-panel="web">
+                  <p class="panel-top"><span>My learning notes</span><span class="done">Completed</span></p>
+                  <div class="panel-title"><span class="star-node on"><svg class="i" aria-hidden="true">
+                        <use href="#i-code" />
+                      </svg></span>
+                    <div><small>Structure &amp; the web</small>
+                      <h3>Web Development</h3>
+                    </div>
+                  </div>
+                  <p>A foundational introduction to how websites are built: semantic HTML, styling with CSS, and the
+                    basics of making a page feel clear and usable.</p>
+                  <ul class="n-tags">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Web fundamentals</li>
+                  </ul>
+                </div>
+                <div class="ms-panel" data-panel="art">
+                  <p class="panel-top"><span>My learning notes</span><span class="done">Completed</span></p>
+                  <div class="panel-title"><span class="star-node on"><svg class="i" aria-hidden="true">
+                        <use href="#i-palette" />
+                      </svg></span>
+                    <div><small>Ideas made visual</small>
+                      <h3>Digital Art</h3>
+                    </div>
+                  </div>
+                  <p>Explored digital creation and visual composition — bringing an artistic eye into digital tools and
+                    learning how imagery communicates.</p>
+                  <ul class="n-tags">
+                    <li>Digital art</li>
+                    <li>Composition</li>
+                    <li>Visual storytelling</li>
+                  </ul>
+                </div>
+                <div class="ms-panel" data-panel="biz">
+                  <p class="panel-top"><span>My learning notes</span><span class="done">Completed</span></p>
+                  <div class="panel-title"><span class="star-node on"><svg class="i" aria-hidden="true">
+                        <use href="#i-chart" />
+                      </svg></span>
+                    <div><small>Creative work, real world</small>
+                      <h3>Business</h3>
+                    </div>
+                  </div>
+                  <p>Built an understanding of how creative skills connect to real projects: communicating value,
+                    staying organized, and thinking about the people behind the work.</p>
+                  <ul class="n-tags">
+                    <li>Communication</li>
+                    <li>Organization</li>
+                    <li>Client awareness</li>
+                  </ul>
+                </div>
+                <div class="ms-panel" data-panel="ux">
+                  <p class="panel-top"><span>My learning notes</span><span class="done">Completed</span></p>
+                  <div class="panel-title"><span class="star-node on"><svg class="i" aria-hidden="true">
+                        <use href="#i-compass" />
+                      </svg></span>
+                    <div><small>Designing for people</small>
+                      <h3>UX Design</h3>
+                    </div>
+                  </div>
+                  <p>Learned the foundations of user experience and the early stages of interface design, including how
+                    Figma is used to explore layouts and ideas.</p>
+                  <ul class="n-tags">
+                    <li>Figma</li>
+                    <li>UX foundations</li>
+                    <li>Interface thinking</li>
+                  </ul>
+                </div>
+                <p class="panel-foot"><svg class="i" aria-hidden="true">
+                    <use href="#i-cap" />
+                  </svg> IFA IndigiTECH · 2026 <a href="#toolbox">My toolbox <svg class="i" aria-hidden="true">
+                      <use href="#i-arrow" />
+                    </svg></a></p>
+              </div>
+            </div>
+
+            <div class="night-foot">
+              <div>
+                <p class="nf-title">Foundations, not finished edges.</p>
+                <p>
+                  These are introductory skills, honestly presented. I'm comfortable with the foundations of HTML, CSS,
+                  Figma and digital design — and I'm not claiming advanced developer expertise. What I bring is a
+                  creative
+                  eye, a strong work ethic, and a genuine appetite to learn in a real team.
+                </p>
+              </div>
+              <div>
+                <p class="nf-kicker"><span class="dot" aria-hidden="true"></span> The next chapter</p>
+                <p>Building a foundation for a long-term career in technology — one project, question, and careful
+                  detail at a time.</p>
+                <a href="#contact" class="nf-link">Let's talk about what's next <svg class="i" aria-hidden="true">
+                    <use href="#i-arrow" />
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 6 · TOOLBOX ═══════════════════════ -->
+    <section id="toolbox" class="section section-line" aria-labelledby="toolbox-heading">
+      <div class="shell">
+        <div class="sec-row">
+          <header class="sec-head reveal">
+            <span class="eyebrow">Digital skills &amp; creative toolbox</span>
+            <h2 id="toolbox-heading" class="section-title">My creative &amp; digital <em>toolbox.</em></h2>
+            <p class="script">A growing collection — used with curiosity, not perfection.</p>
+            <p class="lede">
+              A hands-on mix of design, content, web foundations, analytics, and people skills. Every tool here
+              represents
+              something I've actually explored, practiced, or used in a real project or role.
+            </p>
+          </header>
+          <p class="note-chip reveal">✦ No percentage bars. Just honest tools and strengths — and space to keep
+            learning.</p>
+        </div>
+
+        <div class="cat-grid">
+          <article class="cat-card c-violet reveal">
+            <div class="cat-head">
+              <span class="icon-tile" aria-hidden="true"><svg class="i">
+                  <use href="#i-code" />
+                </svg></span>
+              <div>
+                <h3>Web &amp; UX</h3>
+                <p>Foundations for building thoughtfully</p>
+              </div>
+            </div>
+            <ul class="gems">
+              <li><button type="button" class="gem" id="g-web-1" aria-describedby="n-web-1"
+                  title="Semantic page structure and accessible content foundations."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>HTML</button></li>
+              <li><button type="button" class="gem" id="g-web-2" aria-describedby="n-web-2"
+                  title="Layout, colour, spacing and responsive styling fundamentals."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>CSS</button></li>
+              <li><button type="button" class="gem" id="g-web-3" aria-describedby="n-web-3"
+                  title="Exploring layouts, wireframes and early interface ideas."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Figma</button></li>
+              <li><button type="button" class="gem" id="g-web-4" aria-describedby="n-web-4"
+                  title="Understanding people, flows and clear, accessible decisions."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>UX Design Foundations</button></li>
+            </ul>
+            <div class="skill-detail">
+              <p class="skill-idle"><svg class="i sn-spark" aria-hidden="true">
+                  <use href="#i-sparkles" />
+                </svg>Hover, focus or tap a gem to see how I use it.</p>
+              <p class="skill-note" id="n-web-1"><span class="sn-name">HTML</span><span class="sn-text">Semantic page
+                  structure and accessible content foundations.</span></p>
+              <p class="skill-note" id="n-web-2"><span class="sn-name">CSS</span><span class="sn-text">Layout, colour,
+                  spacing and responsive styling fundamentals.</span></p>
+              <p class="skill-note" id="n-web-3"><span class="sn-name">Figma</span><span class="sn-text">Exploring
+                  layouts, wireframes and early interface ideas.</span></p>
+              <p class="skill-note" id="n-web-4"><span class="sn-name">UX Foundations</span><span
+                  class="sn-text">Understanding people, flows and clear, accessible decisions.</span></p>
+            </div>
+          </article>
+
+          <article class="cat-card c-gold reveal">
+            <div class="cat-head">
+              <span class="icon-tile" aria-hidden="true"><svg class="i">
+                  <use href="#i-palette" />
+                </svg></span>
+              <div>
+                <h3>Digital Design &amp; Content</h3>
+                <p>Making ideas feel beautiful and clear</p>
+              </div>
+            </div>
+            <ul class="gems">
+              <li><button type="button" class="gem" id="g-design-1" aria-describedby="n-design-1"
+                  title="Social graphics, promotional layouts and brand-consistent visuals."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Canva</button></li>
+              <li><button type="button" class="gem" id="g-design-2" aria-describedby="n-design-2"
+                  title="Digital painting and illustration exploration."><svg class="gem-mark" aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Krita</button></li>
+              <li><button type="button" class="gem" id="g-design-3" aria-describedby="n-design-3"
+                  title="Short-form video editing and social storytelling."><svg class="gem-mark" aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>CapCut</button></li>
+              <li><button type="button" class="gem" id="g-design-4" aria-describedby="n-design-4"
+                  title="Cut-file design for handmade and crafted projects."><svg class="gem-mark" aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Cricut Design Space</button></li>
+              <li><button type="button" class="gem" id="g-design-5" aria-describedby="n-design-5"
+                  title="Type, colour and composition for clear visual communication."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Graphic Design</button></li>
+              <li><button type="button" class="gem" id="g-design-6" aria-describedby="n-design-6"
+                  title="Planning and creating content made for a real audience."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Social Media Content Creation</button></li>
+            </ul>
+            <div class="skill-detail">
+              <p class="skill-idle"><svg class="i sn-spark" aria-hidden="true">
+                  <use href="#i-sparkles" />
+                </svg>Hover, focus or tap a gem to see how I use it.</p>
+              <p class="skill-note" id="n-design-1"><span class="sn-name">Canva</span><span class="sn-text">Social
+                  graphics, promotional layouts and brand-consistent visuals.</span></p>
+              <p class="skill-note" id="n-design-2"><span class="sn-name">Krita</span><span class="sn-text">Digital
+                  painting and illustration exploration.</span></p>
+              <p class="skill-note" id="n-design-3"><span class="sn-name">CapCut</span><span class="sn-text">Short-form
+                  video editing and social storytelling.</span></p>
+              <p class="skill-note" id="n-design-4"><span class="sn-name">Cricut Design Space</span><span
+                  class="sn-text">Cut-file design for handmade and crafted projects.</span></p>
+              <p class="skill-note" id="n-design-5"><span class="sn-name">Graphic Design</span><span
+                  class="sn-text">Type, colour and composition for clear visual communication.</span></p>
+              <p class="skill-note" id="n-design-6"><span class="sn-name">Social Content</span><span
+                  class="sn-text">Planning and creating content made for a real audience.</span></p>
+            </div>
+          </article>
+
+          <article class="cat-card c-emerald reveal">
+            <div class="cat-head">
+              <span class="icon-tile" aria-hidden="true"><svg class="i">
+                  <use href="#i-chart" />
+                </svg></span>
+              <div>
+                <h3>Analytics &amp; Productivity</h3>
+                <p>Organized, informed, intentional work</p>
+              </div>
+            </div>
+            <ul class="gems">
+              <li><button type="button" class="gem" id="g-analytics-1" aria-describedby="n-analytics-1"
+                  title="Reading engagement and reach data to guide content choices."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Meta Business Suite Analytics</button></li>
+              <li><button type="button" class="gem" id="g-analytics-2" aria-describedby="n-analytics-2"
+                  title="Documents, shared files and everyday collaborative work."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Google Workspace</button></li>
+              <li><button type="button" class="gem" id="g-analytics-3" aria-describedby="n-analytics-3"
+                  title="Familiarity with a professional productivity suite."><svg class="gem-mark" aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Microsoft 365</button></li>
+              <li><button type="button" class="gem" id="g-analytics-4" aria-describedby="n-analytics-4"
+                  title="Using simple metrics to learn what resonates and why."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Digital Marketing Analytics</button></li>
+            </ul>
+            <div class="skill-detail">
+              <p class="skill-idle"><svg class="i sn-spark" aria-hidden="true">
+                  <use href="#i-sparkles" />
+                </svg>Hover, focus or tap a gem to see how I use it.</p>
+              <p class="skill-note" id="n-analytics-1"><span class="sn-name">Meta Business Suite</span><span
+                  class="sn-text">Reading engagement and reach data to guide content choices.</span></p>
+              <p class="skill-note" id="n-analytics-2"><span class="sn-name">Google Workspace</span><span
+                  class="sn-text">Documents, shared files and everyday collaborative work.</span></p>
+              <p class="skill-note" id="n-analytics-3"><span class="sn-name">Microsoft 365</span><span
+                  class="sn-text">Familiarity with a professional productivity suite.</span></p>
+              <p class="skill-note" id="n-analytics-4"><span class="sn-name">Marketing Analytics</span><span
+                  class="sn-text">Using simple metrics to learn what resonates and why.</span></p>
+            </div>
+          </article>
+
+          <article class="cat-card c-sky reveal">
+            <div class="cat-head">
+              <span class="icon-tile" aria-hidden="true"><svg class="i">
+                  <use href="#i-sparkles" />
+                </svg></span>
+              <div>
+                <h3>AI &amp; Emerging Technology</h3>
+                <p>Curious, careful exploration</p>
+              </div>
+            </div>
+            <ul class="gems">
+              <li><button type="button" class="gem" id="g-ai-1" aria-describedby="n-ai-1"
+                  title="Writing clearer prompts to explore and support creative work."><svg class="gem-mark"
+                    aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Meta Prompting</button></li>
+              <li><button type="button" class="gem" id="g-ai-2" aria-describedby="n-ai-2"
+                  title="Still learning — interested in how AI can support, never replace, an artist&#x27;s ideas."><svg
+                    class="gem-mark" aria-hidden="true">
+                    <use href="#gem-mark" />
+                  </svg>Exploring AI-Assisted Creative Workflows</button></li>
+            </ul>
+            <div class="skill-detail">
+              <p class="skill-idle"><svg class="i sn-spark" aria-hidden="true">
+                  <use href="#i-sparkles" />
+                </svg>Hover, focus or tap a gem to see how I use it.</p>
+              <p class="skill-note" id="n-ai-1"><span class="sn-name">Meta Prompting</span><span class="sn-text">Writing
+                  clearer prompts to explore and support creative work.</span></p>
+              <p class="skill-note" id="n-ai-2"><span class="sn-name">AI Workflows</span><span class="sn-text">Still
+                  learning — interested in how AI can support, never replace, an artist's ideas.</span></p>
+            </div>
+          </article>
+        </div>
+
+        <article class="cat-card pro-card reveal">
+          <div class="pro-top">
+            <div class="pro-intro">
+              <p class="mono-label"><svg class="star-mini" aria-hidden="true">
+                  <use href="#star4" />
+                </svg> The human toolkit</p>
+              <h3 class="sub-title">Professional <em>skills.</em></h3>
+              <p>The strengths built through hosting, caregiving, creating, and showing up — the ones that travel into
+                every team and every project.</p>
+            </div>
+            <ul class="gems pills">
+              <li><button type="button" class="gem" id="g-pro-1" aria-describedby="n-pro-1"
+                  title="Finding another way when the first path doesn&#x27;t work."><svg class="star-mini"
+                    aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Creative Problem-Solving</button></li>
+              <li><button type="button" class="gem" id="g-pro-2" aria-describedby="n-pro-2"
+                  title="Explaining ideas clearly and listening with care."><svg class="star-mini" aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Communication</button></li>
+              <li><button type="button" class="gem" id="g-pro-3" aria-describedby="n-pro-3"
+                  title="Comfortable hosting, presenting and engaging a room."><svg class="star-mini"
+                    aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Public Speaking</button></li>
+              <li><button type="button" class="gem" id="g-pro-4" aria-describedby="n-pro-4"
+                  title="Collaborative, dependable and open to other perspectives."><svg class="star-mini"
+                    aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Teamwork</button></li>
+              <li><button type="button" class="gem" id="g-pro-5" aria-describedby="n-pro-5"
+                  title="Keeping many small moving pieces in order."><svg class="star-mini" aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Organization</button></li>
+              <li><button type="button" class="gem" id="g-pro-6" aria-describedby="n-pro-6"
+                  title="Planning realistically and following through."><svg class="star-mini" aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Time Management</button></li>
+              <li><button type="button" class="gem" id="g-pro-7" aria-describedby="n-pro-7"
+                  title="Learning new tools and adjusting as things change."><svg class="star-mini" aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Adaptability</button></li>
+              <li><button type="button" class="gem" id="g-pro-8" aria-describedby="n-pro-8"
+                  title="Showing up with warmth and respect for community."><svg class="star-mini" aria-hidden="true">
+                    <use href="#star4" />
+                  </svg>Community Engagement</button></li>
+            </ul>
+          </div>
+          <div class="skill-detail">
+            <p class="skill-idle"><svg class="i sn-spark" aria-hidden="true">
+                <use href="#i-sparkles" />
+              </svg>These are strengths I use in real life, not just on paper.</p>
+            <p class="skill-note" id="n-pro-1"><span class="sn-name">Creative Problem-Solving</span><span
+                class="sn-text">Finding another way when the first path doesn't work.</span></p>
+            <p class="skill-note" id="n-pro-2"><span class="sn-name">Communication</span><span
+                class="sn-text">Explaining ideas clearly and listening with care.</span></p>
+            <p class="skill-note" id="n-pro-3"><span class="sn-name">Public Speaking</span><span
+                class="sn-text">Comfortable hosting, presenting and engaging a room.</span></p>
+            <p class="skill-note" id="n-pro-4"><span class="sn-name">Teamwork</span><span class="sn-text">Collaborative,
+                dependable and open to other perspectives.</span></p>
+            <p class="skill-note" id="n-pro-5"><span class="sn-name">Organization</span><span class="sn-text">Keeping
+                many small moving pieces in order.</span></p>
+            <p class="skill-note" id="n-pro-6"><span class="sn-name">Time Management</span><span
+                class="sn-text">Planning realistically and following through.</span></p>
+            <p class="skill-note" id="n-pro-7"><span class="sn-name">Adaptability</span><span class="sn-text">Learning
+                new tools and adjusting as things change.</span></p>
+            <p class="skill-note" id="n-pro-8"><span class="sn-name">Community Engagement</span><span
+                class="sn-text">Showing up with warmth and respect for community.</span></p>
+          </div>
+        </article>
+
+        <div class="dashed-note reveal">
+          <p><strong>Still learning:</strong> responsive web design, deeper UX practice, and thoughtful AI-assisted
+            creative workflows.</p>
+          <a href="#experience" class="text-link">See where I've applied it</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 6b · DIGITAL MARKETING PORTFOLIO ═══════════════════════ -->
+    <section id="marketing" class="section marketing" aria-labelledby="marketing-heading">
+      <div class="shell">
+        <header class="sec-head reveal">
+          <span class="eyebrow">Digital Marketing Portfolio</span>
+          <h2 id="marketing-heading" class="section-title">Digital Marketing <em>Portfolio.</em></h2>
+          <p class="lede">A collection of projects I designed online through Canva, Krita, VS Code, Cricut Design Space,
+            and CapCut.</p>
+        </header>
+
+        <div class="mkt-grid">
+          <!-- Capstone Project (moved here from the artwork gallery) -->
+          <article class="mkt-card reveal">
+            <div class="mkt-media">
+              <img src="images/capstone-web.webp"
+                alt="Tunescape — the Capstone Project website Heaven built for independent artists and bands"
+                loading="lazy" width="1200" height="960" />
+              <span class="mkt-cat">Web Development</span>
+            </div>
+            <div class="mkt-body">
+              <h3>“IFA Web Dev Capstone Project”</h3>
+              <p class="mkt-meta">VS Code <span aria-hidden="true">✦</span> 2026</p>
+              <p class="mkt-desc">For my Capstone Project, I created a platform for independent artists and bands to
+                post news updates about upcoming shows, sell merchandise, and sell physical copies of their music — and
+                more.</p>
+              <div class="mkt-actions">
+                <a class="btn btn-gold btn-sm" href="https://tunescape-music.neocities.org/" target="_blank"
+                  rel="noopener noreferrer">Visit the live site <svg class="i" aria-hidden="true">
+                    <use href="#i-arrow" />
+                  </svg></a>
+                <span class="mkt-url">tunescape-music.neocities.org</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Industry marketing -->
+          <article class="mkt-card reveal">
+            <div class="mkt-media mkt-media-banner">
+              <img src="images/industry-banner.webp"
+                alt="The Industry Live Entertainment Lounge hero banner designed by Heaven Forsberg" loading="lazy"
+                width="851" height="315" />
+              <span class="mkt-cat">Digital Marketing</span>
+              <span class="mkt-media-tag">Heaven's work · 6 pieces in the slideshow below</span>
+            </div>
+            <div class="mkt-body">
+              <h3>“The Industry Live Entertainment Lounge Marketing”</h3>
+              <p class="mkt-meta">Canva and CapCut <span aria-hidden="true">✦</span> 2026</p>
+              <p class="mkt-desc">I created digital flyers and videos for 4 months to promote certain events The
+                Industry was hosting, such as Karaoke Nights and DJ Showcases.</p>
+              <div class="mkt-actions">
+                <span class="mkt-note">See the work in the slideshow below</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Angry Outdoor Kids marketing -->
+          <article class="mkt-card reveal">
+            <div class="mkt-media mkt-media-photo">
+              <img src="images/angry-outdoor-kids.webp"
+                alt="Angry Outdoor Kids promotional artwork designed by Heaven Forsberg" loading="lazy" width="593"
+                height="745" />
+              <span class="mkt-cat">Digital Marketing</span>
+            </div>
+            <div class="mkt-body">
+              <h3>“Angry Outdoor Kids Marketing”</h3>
+              <p class="mkt-meta">Canva, CapCut, and Cricut Design Space <span aria-hidden="true">✦</span> 2020 - 2024
+              </p>
+              <p class="mkt-desc">I created promotional text and video posts to promote the band's music and their brand
+                through many platforms, and designed graphics and merchandise vectors for shirts, sweaters, stickers and
+                more.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="slideshow-head reveal">
+          <h3 class="sl-title-head">The work, slide by slide</h3>
+          <p class="mono-label">The Industry · Angry Outdoor Kids — use the arrows, the dots, or your keyboard to browse
+          </p>
+        </div>
+
+        <!--
+            ╔══════════════════════════════════════════════════════════════╗
+            ║  UPDATE ME — SLIDESHOW MEDIA (11 slots)                       ║
+            ║  Each <figure class="sl-slide"> below holds one photo or      ║
+            ║  video. To swap one for a different photo or video:           ║
+            ║    1. Put the file in the "images" folder.                    ║
+            ║    2. Replace the .sl-canvas block's contents with either:    ║
+            ║         <img src="images/your-file.jpg" alt="..." />          ║
+            ║         or  <video src="images/your-file.mp4" controls        ║
+            ║                muted loop playsinline></video>                ║
+            ║    3. Update the title / kind / tag text and the alt text.    ║
+            ║  Keep the arrows + labels — the navigation stays as-is.       ║
+            ║  Slides 1-6: The Industry  ·  Slides 7-11: Angry Outdoor Kids ║
+            ══════════════════════════════════════════════════════════════╝
+          -->
+        <div class="slideshow reveal" aria-roledescription="carousel" aria-label="Digital marketing work slideshow">
+          <input type="radio" name="mkt-slide" id="mk1" class="sl-radio" checked aria-label="Show slide 1" />
+          <input type="radio" name="mkt-slide" id="mk2" class="sl-radio" aria-label="Show slide 2" />
+          <input type="radio" name="mkt-slide" id="mk3" class="sl-radio" aria-label="Show slide 3" />
+          <input type="radio" name="mkt-slide" id="mk4" class="sl-radio" aria-label="Show slide 4" />
+          <input type="radio" name="mkt-slide" id="mk5" class="sl-radio" aria-label="Show slide 5" />
+          <input type="radio" name="mkt-slide" id="mk6" class="sl-radio" aria-label="Show slide 6" />
+          <input type="radio" name="mkt-slide" id="mk7" class="sl-radio" aria-label="Show slide 7" />
+          <input type="radio" name="mkt-slide" id="mk8" class="sl-radio" aria-label="Show slide 8" />
+          <input type="radio" name="mkt-slide" id="mk9" class="sl-radio" aria-label="Show slide 9" />
+          <input type="radio" name="mkt-slide" id="mk10" class="sl-radio" aria-label="Show slide 10" />
+          <input type="radio" name="mkt-slide" id="mk11" class="sl-radio" aria-label="Show slide 11" />
+          <div class="sl-viewport">
+            <figure class="sl-slide sl-1" role="group" aria-roledescription="slide"
+              aria-label="Slide 1 of 11: Karaoke Night flyer designed for The Industry Live Entertainment Lounge">
+              <div class="sl-canvas g1 sl-canvas-photo">
+                <img src="images/karaoke-night.webp"
+                  alt="Karaoke Night digital flyer for The Industry Live Entertainment Lounge, designed by Heaven Forsberg"
+                  loading="lazy" width="1080" height="1350" />
+                <span class="sl-tag">Heaven's work</span>
+                <span class="sl-caption"><strong>Karaoke Night</strong> · Flyer · The Industry 2026</span>
+              </div>
+              <label for="mk11" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk2" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-2" role="group" aria-roledescription="slide"
+              aria-label="Slide 2 of 11: DJ Showcase promotional image designed by Heaven Forsberg">
+              <div class="sl-canvas g2 sl-canvas-photo">
+                <img src="images/dj-showcase.webp"
+                  alt="DJ Showcase promotional image designed by Heaven Forsberg for The Industry Live Entertainment Lounge"
+                  loading="lazy" width="1080" height="1350" />
+                <span class="sl-tag">Heaven's work</span>
+                <span class="sl-caption"><strong>DJ Showcase</strong> · Promo Design · The Industry 2026</span>
+              </div>
+              <label for="mk1" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk3" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-3" role="group" aria-roledescription="slide"
+              aria-label="Slide 3 of 11: Guest Artist announcement poster designed by Heaven Forsberg">
+              <div class="sl-canvas g3 sl-canvas-photo">
+                <img src="images/guest-artist.webp"
+                  alt="Guest Artist announcement poster designed by Heaven Forsberg for The Industry Live Entertainment Lounge"
+                  loading="lazy" width="1080" height="1350" />
+                <span class="sl-tag">Heaven's work</span>
+                <span class="sl-caption"><strong>Guest Artist</strong> · Announcement Poster · The Industry 2026</span>
+              </div>
+              <label for="mk2" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk4" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-4" role="group" aria-roledescription="slide"
+              aria-label="Slide 4 of 11: Social Media teaser video created by Heaven Forsberg">
+              <div class="sl-canvas g4 sl-canvas-photo sl-canvas-video">
+                <video controls muted loop playsinline preload="metadata" poster="images/social-teaser-poster.webp"
+                  aria-label="Social Media teaser video created by Heaven Forsberg for The Industry Live Entertainment Lounge"
+                  width="1080" height="1350">
+                  <source src="images/social-teaser.mp4" type="video/mp4" />
+                  Your browser does not support embedded video. <a href="images/social-teaser.mp4">Open the video</a>.
+                </video>
+                <span class="sl-tag">Heaven's work · Social Media Teaser Video</span>
+              </div>
+              <label for="mk3" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk5" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-5" role="group" aria-roledescription="slide"
+              aria-label="Slide 5 of 11: Karaoke &amp; DJ Showcase Story Video created by Heaven Forsberg">
+              <div class="sl-canvas g5 sl-canvas-photo sl-canvas-video">
+                <video controls muted loop playsinline preload="metadata" poster="images/countdown-poster.webp"
+                  aria-label="Karaoke &amp; DJ Showcase Story Video created by Heaven Forsberg for The Industry Live Entertainment Lounge"
+                  width="1080" height="1350">
+                  <source src="images/countdown-story.mp4" type="video/mp4" />
+                  Your browser does not support embedded video. <a href="images/countdown-story.mp4">Open the video</a>.
+                </video>
+                <span class="sl-tag">Heaven's work · Karaoke &amp; DJ Showcase Story Video</span>
+              </div>
+              <label for="mk4" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk6" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-6" role="group" aria-roledescription="slide"
+              aria-label="Slide 6 of 11: The Industry's Hero Banner designed by Heaven Forsberg">
+              <div class="sl-canvas g6 sl-canvas-photo">
+                <img src="images/hero-banner.webp"
+                  alt="The Industry's Hero Banner — a wide website banner designed by Heaven Forsberg" loading="lazy"
+                  width="851" height="315" />
+                <span class="sl-tag">Heaven's work</span>
+                <span class="sl-caption"><strong>The Industry&rsquo;s Hero Banner</strong> · Hero Banner · The Industry
+                  2026</span>
+              </div>
+              <label for="mk5" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk7" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-7" role="group" aria-roledescription="slide"
+              aria-label="Slide 7 of 11: Photography, Angry Outdoor Kids, by Heaven Forsberg">
+              <div class="sl-canvas g7 sl-canvas-photo">
+                <img src="images/aok-photography.webp"
+                  alt="Photograph of the band Angry Outdoor Kids, photographed by Heaven Forsberg" loading="lazy"
+                  width="1440" height="810" />
+                <span class="sl-tag">Heaven's work · Photography</span>
+                <span class="sl-brand">Angry Outdoor Kids · 2020 – 2024</span>
+                <span class="sl-caption"><strong>Photography</strong> · Angry Outdoor Kids</span>
+              </div>
+              <label for="mk6" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk8" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-8" role="group" aria-roledescription="slide"
+              aria-label="Slide 8 of 11: Music Release promotional video by Angry Outdoor Kids">
+              <div class="sl-canvas g8 sl-canvas-photo sl-canvas-video">
+                <video controls muted loop playsinline preload="metadata" poster="images/music-release-poster.webp"
+                  aria-label="Music Release promotional video created for Angry Outdoor Kids" width="360" height="640">
+                  <source src="images/music-release.mp4" type="video/mp4" />
+                  Your browser does not support embedded video. <a href="images/music-release.mp4">Open the video</a>.
+                </video>
+                <span class="sl-tag">Heaven's work · Music Release Video</span>
+                <span class="sl-brand">Angry Outdoor Kids · 2020 – 2024</span>
+              </div>
+              <label for="mk7" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk9" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-9" role="group" aria-roledescription="slide"
+              aria-label="Slide 9 of 11: Merch Design for Angry Outdoor Kids, by Heaven Forsberg">
+              <div class="sl-canvas g9 sl-canvas-photo">
+                <img src="images/aok-merch-design.webp"
+                  alt="Angry Outdoor Kids merchandise featuring a design by Heaven Forsberg" loading="lazy" width="1600"
+                  height="1200" />
+                <span class="sl-tag">Heaven's work · Merch Design</span>
+                <span class="sl-brand">Angry Outdoor Kids · 2020 – 2024</span>
+                <span class="sl-caption"><strong>Merch Design</strong> · Angry Outdoor Kids</span>
+              </div>
+              <label for="mk8" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk10" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-10" role="group" aria-roledescription="slide"
+              aria-label="Slide 10 of 11: Show Announcement video for Angry Outdoor Kids">
+              <div class="sl-canvas g10 sl-canvas-photo sl-canvas-video">
+                <video controls muted loop playsinline preload="metadata" poster="images/show-announcement-poster.webp"
+                  aria-label="Show Announcement video created for Angry Outdoor Kids" width="360" height="640">
+                  <source src="images/show-announcement.mp4" type="video/mp4" />
+                  Your browser does not support embedded video. <a href="images/show-announcement.mp4">Open the
+                    video</a>.
+                </video>
+                <span class="sl-tag">Heaven's work · Show Announcement Video</span>
+                <span class="sl-brand">Angry Outdoor Kids · 2020 – 2024</span>
+              </div>
+              <label for="mk9" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk11" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+            <figure class="sl-slide sl-11" role="group" aria-roledescription="slide"
+              aria-label="Slide 11 of 11: Brand Story video for Angry Outdoor Kids">
+              <div class="sl-canvas g11 sl-canvas-photo sl-canvas-video">
+                <video controls muted loop playsinline preload="metadata" poster="images/brand-story-poster.webp"
+                  aria-label="Brand Story video created for Angry Outdoor Kids" width="360" height="480">
+                  <source src="images/brand-story.mp4" type="video/mp4" />
+                  Your browser does not support embedded video. <a href="images/brand-story.mp4">Open the video</a>.
+                </video>
+                <span class="sl-tag">Heaven's work · Brand Story Video</span>
+                <span class="sl-brand">Angry Outdoor Kids · 2020 – 2024</span>
+              </div>
+              <label for="mk10" class="sl-arrow sl-arrow-prev" aria-label="Previous slide"><svg class="i"
+                  aria-hidden="true">
+                  <use href="#i-prev" />
+                </svg></label>
+              <label for="mk1" class="sl-arrow sl-arrow-next" aria-label="Next slide"><svg class="i" aria-hidden="true">
+                  <use href="#i-next" />
+                </svg></label>
+            </figure>
+          </div>
+          <div class="sl-dots" role="group" aria-label="Choose slide">
+            <label for="mk1" class="sl-dot" aria-label="Go to slide 1"></label>
+            <label for="mk2" class="sl-dot" aria-label="Go to slide 2"></label>
+            <label for="mk3" class="sl-dot" aria-label="Go to slide 3"></label>
+            <label for="mk4" class="sl-dot" aria-label="Go to slide 4"></label>
+            <label for="mk5" class="sl-dot" aria-label="Go to slide 5"></label>
+            <label for="mk6" class="sl-dot" aria-label="Go to slide 6"></label>
+            <label for="mk7" class="sl-dot sl-dot-group" aria-label="Go to slide 7"></label>
+            <label for="mk8" class="sl-dot" aria-label="Go to slide 8"></label>
+            <label for="mk9" class="sl-dot" aria-label="Go to slide 9"></label>
+            <label for="mk10" class="sl-dot" aria-label="Go to slide 10"></label>
+            <label for="mk11" class="sl-dot" aria-label="Go to slide 11"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ═══════════════════════ 7 · EXPERIENCE ═══════════════════════ -->
+    <section id="experience" class="section experience" aria-labelledby="experience-heading">
+      <div class="shell xp-grid">
+        <div class="xp-side">
+          <div class="xp-sticky">
+            <header class="sec-head reveal">
+              <span class="eyebrow">Professional experience</span>
+              <h2 id="experience-heading" class="section-title">Experience that <em>shaped me.</em></h2>
+              <p class="script">Hosting rooms, growing audiences, caring for people.</p>
+              <p class="lede">Different roles, one common thread: I care about the details, I communicate with people,
+                and I figure things out when something goes sideways.</p>
+            </header>
+            <div class="stat-row reveal">
+              <div class="stat"><strong>8</strong><span>years creating content</span></div>
+              <div class="stat"><strong>4</strong><span>creative disciplines</span></div>
+              <div class="stat"><strong>1</strong><span>curious mind</span></div>
+            </div>
+            <div class="work-style reveal">
+              <p class="mono-label">How I tend to work</p>
+              <ul>
+                <li>Listen first, then make it clear.</li>
+                <li>Keep the small details accounted for.</li>
+                <li>Stay calm, kind, and resourceful under pressure.</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-ghost btn-sm" popovertarget="resume"><svg class="i" aria-hidden="true">
+                <use href="#i-file" />
+              </svg> View full résumé</button>
+          </div>
+        </div>
+
+        <div class="xp-main">
+          <ol class="timeline">
+            <li class="timeline-item reveal">
+              <article class="xp-card">
+                <div class="xp-head">
+                  <span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-music" />
+                    </svg></span>
+                  <div>
+                    <h3>The Industry Live Entertainment Lounge</h3>
+                    <p class="xp-role">Karaoke Hostess &amp; Social Media Manager</p>
+                  </div>
+                  <span class="xp-date">April 2025 – September 2026</span>
+                </div>
+                <p class="xp-summary">A lively, people-facing role blending hosting, content creation and on-the-spot
+                  problem solving.</p>
+                <div class="metrics">
+                  <div class="metric"><strong>15%</strong><span>engagement &amp; customers · 4 months</span></div><span
+                    class="reported">Reported</span>
+                </div>
+                <ul class="xp-list">
+                  <li>Created social media content contributing to a reported 15% increase in engagement and customers
+                    within four months.</li>
+                  <li>Designed promotional graphics and videos to support events and the venue's online presence.</li>
+                  <li>Operated and troubleshot audiovisual equipment during live events.</li>
+                  <li>Organized karaoke rotations and digital logs with care and accuracy.</li>
+                  <li>Developed public speaking, communication and event coordination skills in a fast-paced setting.
+                  </li>
+                </ul>
+              </article>
+            </li>
+            <li class="timeline-item reveal">
+              <article class="xp-card">
+                <div class="xp-head">
+                  <span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-leaf" />
+                    </svg></span>
+                  <div>
+                    <h3>Angry Outdoor Kids</h3>
+                    <p class="xp-role">Social Media Manager</p>
+                  </div>
+                  <span class="xp-date">November 2016 – October 2024</span>
+                </div>
+                <p class="xp-summary">Eight years of telling an outdoor story online, learning an audience and shaping a
+                  visual voice.</p>
+                <div class="metrics">
+                  <div class="metric"><strong>50%</strong><span>engagement &amp; follower growth</span></div><span
+                    class="reported">Reported</span>
+                </div>
+                <ul class="xp-list">
+                  <li>Created multimedia content across major social media platforms.</li>
+                  <li>Supported a reported 50% growth in engagement and followers over eight years.</li>
+                  <li>Used analytics to inform content strategies and future posts.</li>
+                  <li>Designed graphics, promotional materials and merchandise vectors.</li>
+                </ul>
+              </article>
+            </li>
+            <li class="timeline-item reveal">
+              <article class="xp-card">
+                <div class="xp-head">
+                  <span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-heart" />
+                    </svg></span>
+                  <div>
+                    <h3>Caregiving</h3>
+                    <p class="xp-role">Caregiver</p>
+                  </div>
+                  <span class="xp-date">2008 – Present</span>
+                </div>
+                <p class="xp-summary">The work that builds patience, empathy and quiet competence long before a résumé
+                  shows it.</p>
+                <ul class="xp-list">
+                  <li>Plan and organize daily responsibilities and household systems.</li>
+                  <li>Coordinate schedules and manage financial budgeting.</li>
+                  <li>Practice communication, empathy, patience and creative problem solving every single day.</li>
+                </ul>
+              </article>
+            </li>
+          </ol>
+          <div class="green-note reveal">
+            <p><strong>I'm at the beginning of my technology career —</strong> and I'm bringing all of this with me.</p>
+            <a href="#contact" class="text-link">Start a conversation <svg class="i" aria-hidden="true">
+                <use href="#i-arrow" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 8 · PROCESS ═══════════════════════ -->
+    <section id="process" class="section section-line process" aria-labelledby="process-heading">
+      <div class="stars faint" aria-hidden="true"></div>
+      <div class="shell">
+        <div class="sec-row">
+          <header class="sec-head reveal">
+            <span class="eyebrow">My creative process</span>
+            <h2 id="process-heading" class="section-title">From a spark of inspiration to <em>something real.</em></h2>
+            <p class="script">Not a straight line — more like a winding path with a few happy detours.</p>
+            <p class="lede">Art and technology meet here. Both start with a question, both ask for experimentation, and
+              both get stronger each time I try again.</p>
+          </header>
+          <p class="script quote reveal">“Let it be messy first.”</p>
+        </div>
+
+        <div class="process-wrap">
+          <svg class="vine draw-on-scroll" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">
+            <path class="vine-path"
+              d="M-20 200C120 110 230 70 340 160S520 310 650 200 820 40 950 120s180 170 280 140" />
+            <path class="vine-leaf" d="M260 112c-18-24-8-48 18-54 4 22-2 40-18 54Z" />
+            <path class="vine-leaf" d="M712 158c16-26 6-50-20-54-2 22 6 40 20 54Z" />
+          </svg>
+          <ol class="process-grid">
+            <li class="process-card reveal">
+              <div class="pc-top"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                    <use href="#i-moon" />
+                  </svg></span><span class="pc-num" aria-hidden="true">01</span></div>
+              <h3>Dream</h3>
+              <p>It often starts with a feeling, a colour, a walk outside, or something small I can't stop thinking
+                about. I collect inspiration before I touch a tool.</p>
+            </li>
+            <li class="process-card reveal">
+              <div class="pc-top"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                    <use href="#i-compass" />
+                  </svg></span><span class="pc-num" aria-hidden="true">02</span></div>
+              <h3>Explore</h3>
+              <p>Then I play. I sketch, try a material, learn a button, ask questions, and let a few imperfect versions
+                exist before choosing a direction.</p>
+            </li>
+            <li class="process-card reveal">
+              <div class="pc-top"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                    <use href="#i-brush" />
+                  </svg></span><span class="pc-num" aria-hidden="true">03</span></div>
+              <h3>Create</h3>
+              <p>This is where the idea meets my hands — paint, fabric, pixels or code. I refine the details until it
+                feels like it belongs to me and to the people it's for.</p>
+            </li>
+            <li class="process-card reveal">
+              <div class="pc-top"><span class="icon-tile" aria-hidden="true"><svg class="i">
+                    <use href="#i-sprout" />
+                  </svg></span><span class="pc-num" aria-hidden="true">04</span></div>
+              <h3>Grow</h3>
+              <p>Every piece teaches me something. I look back, notice what worked, keep what I learned, and carry it
+                into the next idea.</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="soft-note reveal">
+          <p><strong>The overlap:</strong> whether I'm sewing a seam or adjusting a layout, it's the same muscle —
+            observe, experiment, refine, share.</p>
+          <a href="#studio" class="text-link">Visit the studio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 9 · BEYOND THE SCREEN ═══════════════════════ -->
+    <section id="beyond" class="section beyond" aria-labelledby="beyond-heading">
+      <div class="stars faint" aria-hidden="true"></div>
+      <div class="shell">
+        <div class="sec-row">
+          <header class="sec-head reveal">
+            <span class="eyebrow">Beyond the screen</span>
+            <h2 id="beyond-heading" class="section-title">The little things <em>I love.</em></h2>
+            <p class="script">A scrapbook of small joys.</p>
+            <p class="lede">These are the things that refill the well — the little details that quietly show up in
+              everything I make.</p>
+          </header>
+          <p class="hint-pill reveal">
+            <span class="ladybug" tabindex="0" role="img" aria-label="A tiny hidden ladybug"
+              data-note="Hello there!"><svg aria-hidden="true">
+                <use href="#ladybug" />
+              </svg></span>
+            A few ladybugs are hiding
+          </p>
+        </div>
+
+        <ul class="scrapbook">
+          <li class="scrap s-wide tilt-l t-violet reveal">
+            <span class="tape tape-corner" aria-hidden="true"></span>
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-book" />
+                </svg></span><span class="scrap-num">Field note 01</span></div>
+            <h3>Books in cozy corners</h3>
+            <p>A tea, a blanket, another chapter.</p>
+            <div class="spines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </li>
+          <li class="scrap s-sm tilt-r t-emerald reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-mic" />
+                </svg></span><span class="scrap-num">Field note 02</span></div>
+            <h3>Songs on repeat</h3>
+            <p>Singing is its own kind of home.</p>
+            <div class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+          </li>
+          <li class="scrap s-md t-rose reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-palette" />
+                </svg></span><span class="scrap-num">Field note 03</span></div>
+            <h3>A paint-stained table</h3>
+            <p>The best kind of beautiful mess.</p>
+          </li>
+          <li class="scrap s-sm tilt-l t-gold reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-scissors" />
+                </svg></span><span class="scrap-num">Field note 04</span></div>
+            <h3>Thread and little stitches</h3>
+            <p>Slow work, made to last.</p>
+          </li>
+          <li class="scrap s-wide tilt-r t-emerald reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-mushroom" />
+                </svg></span><span class="scrap-num">Field note 05</span></div>
+            <h3>Forest floors</h3>
+            <p>Mushrooms, moss and tiny surprises.</p>
+            <div class="mush-row">
+              <span class="mushroom-glow" tabindex="0" role="img"
+                aria-label="A cluster of mushrooms that glow when hovered or focused"><svg aria-hidden="true">
+                  <use href="#mushrooms" />
+                </svg></span>
+              <em>Hover to see them glow.</em>
+            </div>
+          </li>
+          <li class="scrap s-md t-rose reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-bug" />
+                </svg></span><span class="scrap-num">Field note 06</span></div>
+            <h3>Ladybugs on leaves</h3>
+            <p>A small reminder of luck.</p>
+            <div class="leaf-walk" aria-hidden="true">
+              <svg class="leaf-big" viewBox="0 0 80 40">
+                <use href="#leaf-sprig" />
+              </svg>
+              <span class="crawler"><svg>
+                  <use href="#ladybug" />
+                </svg></span>
+            </div>
+          </li>
+          <li class="scrap s-md tilt-l t-emerald reveal">
+            <div class="scrap-top"><span class="scrap-icon sway" aria-hidden="true"><svg class="i">
+                  <use href="#i-leaf" />
+                </svg></span><span class="scrap-num">Field note 07</span></div>
+            <h3>Green, growing things</h3>
+            <p>Plants make a room breathe.</p>
+          </li>
+          <li class="scrap s-md tilt-r t-violet reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-gem" />
+                </svg></span><span class="scrap-num">Field note 08</span></div>
+            <h3>Crystals &amp; constellations</h3>
+            <p>Stories written in stone and stars.</p>
+            <p class="gold-quote">“Light, held inside stone.”</p>
+          </li>
+          <li class="scrap s-md t-violet reveal">
+            <div class="scrap-top"><span class="scrap-icon" aria-hidden="true"><svg class="i">
+                  <use href="#i-mountain" />
+                </svg></span><span class="scrap-num">Field note 09</span></div>
+            <h3>Mountains after rain</h3>
+            <p>Perspective, fresh air, quiet.</p>
+            <svg class="ridge" viewBox="0 0 120 26" aria-hidden="true">
+              <path d="M2 24 28 4l15 14L57 2l20 22 18-12 23 12" />
+            </svg>
+          </li>
+        </ul>
+
+        <!-- Easter egg: wishing stars reveal creative affirmations -->
+        <div class="wish-sky reveal">
+          <div>
+            <p class="mono-label">A constellation of wishes</p>
+            <p class="wish-sky-title">Tap a star for a little affirmation.</p>
+          </div>
+          <div class="wish-stars">
+            <button type="button" class="wish-star" popovertarget="wish-1" aria-label="Reveal affirmation one"><svg
+                aria-hidden="true">
+                <use href="#star4" />
+              </svg></button>
+            <button type="button" class="wish-star" popovertarget="wish-2" aria-label="Reveal affirmation two"><svg
+                aria-hidden="true">
+                <use href="#star4" />
+              </svg></button>
+            <button type="button" class="wish-star" popovertarget="wish-3" aria-label="Reveal affirmation three"><svg
+                aria-hidden="true">
+                <use href="#star4" />
+              </svg></button>
+            <button type="button" class="wish-star" popovertarget="wish-4" aria-label="Reveal affirmation four"><svg
+                aria-hidden="true">
+                <use href="#star4" />
+              </svg></button>
+            <button type="button" class="wish-star" popovertarget="wish-5" aria-label="Reveal affirmation five"><svg
+                aria-hidden="true">
+                <use href="#star4" />
+              </svg></button>
+          </div>
+        </div>
+
+        <div class="beyond-foot reveal">
+          <p class="script">The best ideas are often the smallest ones.</p>
+          <p class="mono-label"><svg class="star-mini" aria-hidden="true">
+              <use href="#star4" />
+            </svg> Curiosity is part of the job</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════ 10 · CONTACT ═══════════════════════ -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="shell">
+        <div class="contact-panel reveal">
+          <div class="stars" aria-hidden="true"></div>
+          <svg class="contact-crystals" aria-hidden="true">
+            <use href="#crystals" />
+          </svg>
+          <div class="contact-grid">
+            <div>
+              <p class="eyebrow">Let's create something magical</p>
+              <h2 id="contact-heading" class="contact-title">Let's make something <em>wonderful.</em></h2>
+              <p class="lede">
+                Whether it's about design, technology, creative projects, or new opportunities, I'd love to connect. I'm
+                open to entry-level technology apprenticeships, junior creative roles, and thoughtful collaborations.
+              </p>
+              <div class="chip-row">
+                <span class="chip chip-emerald"><span class="dot" aria-hidden="true"></span> Open to
+                  opportunities</span>
+                <span class="chip">Apprenticeships</span>
+                <span class="chip">Junior design &amp; content</span>
+                <span class="chip">Creative collaborations</span>
+              </div>
+              <div class="contact-actions">
+                <a href="mailto:hlcforsberg97@gmail.com?subject=A%20hello%20from%20your%20portfolio"
+                  class="btn btn-gold"><svg class="i" aria-hidden="true">
+                    <use href="#i-send" />
+                  </svg> Send me an email</a>
+                <button type="button" class="btn btn-ghost" popovertarget="resume"><svg class="i" aria-hidden="true">
+                    <use href="#i-file" />
+                  </svg> View my résumé</button>
+
+                <!-- UPDATE ME: an optional GitHub button can be added the same way when a real profile URL is supplied. -->
+                <a href="https://www.linkedin.com/in/hf0rsberg/" class="btn btn-ghost" target="_blank"
+                  rel="noopener noreferrer">
+                  <svg class="i" aria-hidden="true">
+                    <use href="#i-linkedin" />
+                  </svg> Connect on LinkedIn
+                </a>
+              </div>
+              <p class="fine">A GitHub link can be added later if a real profile is shared. No placeholder profiles are
+                used.</p>
+            </div>
+
+            <div class="direct-card">
+              <div class="direct-head">
+                <div>
+                  <p class="mono-label">Direct line</p>
+                  <h3>Say hello</h3>
+                </div>
+                <span class="gold-circle" aria-hidden="true"><svg class="i">
+                    <use href="#i-sparkles" />
+                  </svg></span>
+              </div>
+              <a href="mailto:hlcforsberg97@gmail.com" class="email-link">hlcforsberg97@gmail.com</a>
+              <ul class="contact-list">
+                <li><span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-mail" />
+                    </svg></span>
+                  <div><span class="dt">Name</span><span class="dd">Heaven Forsberg</span></div>
+                </li>
+                <li><span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-pin" />
+                    </svg></span>
+                  <div><span class="dt">Based in</span><span class="dd">Grande Prairie, Alberta</span></div>
+                </li>
+                <li><span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-globe" />
+                    </svg></span>
+                  <div><span class="dt">Portfolio</span><span class="dd"><a
+                        href="https://hf0rsberg.portfolio.arena.site/"
+                        class="text-link site-url">hf0rsberg.portfolio.arena.site</a></span></div>
+                </li>
+                <li><span class="icon-tile sm" aria-hidden="true"><svg class="i">
+                      <use href="#i-linkedin" />
+                    </svg></span>
+                  <div><span class="dt">LinkedIn</span><span class="dd"><a href="https://www.linkedin.com/in/hf0rsberg/"
+                        class="text-link" target="_blank" rel="noopener noreferrer">linkedin.com/in/hf0rsberg</a></span>
+                  </div>
+                </li>
+              </ul>
+              <p class="reply"><span>Reply time</span><span>Usually within a few days</span></p>
+              <p class="made">Made with intention ✦ Grande Prairie, AB</p>
+              <span class="ladybug lb-contact" tabindex="0" role="img" aria-label="A tiny hidden ladybug"
+                data-note="You found them all? ✨"><svg aria-hidden="true">
+                  <use href="#ladybug" />
+                </svg></span>
+            </div>
+          </div>
+          <div class="contact-bar">
+            <p class="mono-label">Indigenous Friends Association · IndigiTECH 2026</p>
+            <a href="mailto:hlcforsberg97@gmail.com" class="text-link">hlcforsberg97@gmail.com <svg class="i"
+                aria-hidden="true">
+                <use href="#i-arrow" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="night-footer">
+    <div class="stars" aria-hidden="true"></div>
+    <svg class="landscape" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <linearGradient id="mtn-back" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#4a2d68" />
+          <stop offset="100%" stop-color="#2a1a41" />
+        </linearGradient>
+        <linearGradient id="mtn-mid" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#234b41" />
+          <stop offset="100%" stop-color="#122a26" />
+        </linearGradient>
+        <linearGradient id="mtn-front" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#10251f" />
+          <stop offset="100%" stop-color="#08140f" />
+        </linearGradient>
+        <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#c4a7ff" stop-opacity="0" />
+          <stop offset="55%" stop-color="#c4a7ff" stop-opacity=".16" />
+          <stop offset="100%" stop-color="#c4a7ff" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <path class="moon" d="M1120 56a54 54 0 1 0 36 94 44 44 0 0 1-36-94Z" fill="#efdbab" />
+      <g fill="#e8c77b">
+        <circle cx="1178" cy="38" r="2.2" />
+        <circle cx="1082" cy="112" r="1.7" />
+        <circle cx="94" cy="40" r="1.2" />
+        <circle cx="236" cy="86" r="1.7" />
+        <circle cx="522" cy="70" r="1.4" />
+        <circle cx="902" cy="66" r="1.6" />
+      </g>
+      <path d="M0 282 160 166l98 74 132-114 138 122 102-68 118 94 128-120 156 118 134-76 168 110v108H0Z"
+        fill="url(#mtn-back)" />
+      <path d="m392 126 44 30 27-24 40 38-45 18-28-12Z" fill="#d8c9e8" opacity=".16" />
+      <rect x="0" y="230" width="1440" height="120" fill="url(#mist)" />
+      <path d="M0 320 130 226l92 64 110-86 122 96 90-58 122 80 108-98 134 96 120-66 156 102 120-52 136 80v124H0Z"
+        fill="url(#mtn-mid)" />
+      <path
+        d="M0 352c96-8 122-66 196-62 62 4 74 52 146 50 86-2 100-72 186-70 96 2 104 70 194 68 86-2 112-58 194-54 82 4 102 56 174 54 72-2 98-44 162-40 62 4 130 54 188 54v48H0Z"
+        fill="url(#mtn-front)" />
+      <g fill="#0b1d17">
+        <path d="M40 400 66 300l26 100Z" />
+        <path d="M96 400l26-84 26 84Z" />
+        <path d="M150 400l30-112 30 112Z" />
+        <path d="M214 400l24-72 24 72Z" />
+        <path d="M610 400l26-90 26 90Z" />
+        <path d="M668 400l30-118 30 118Z" />
+        <path d="M736 400l22-70 22 70Z" />
+        <path d="M1130 400l28-104 28 104Z" />
+        <path d="M1196 400l24-80 24 80Z" />
+        <path d="M1252 400l30-120 30 120Z" />
+        <path d="M1320 400l26-92 26 92Z" />
+        <path d="M1380 400l28-106 28 106Z" />
+      </g>
+      <g stroke="#10b981" stroke-width="1.2" stroke-linecap="round" opacity=".5" fill="none">
+        <path d="M0 392c26-30 32-58 28-88m0 48c-18-8-28-20-30-34m34 14c16-10 23-22 25-36" />
+        <path d="M1440 388c-24-26-30-52-26-80m-2 42c18-8 28-18 30-30m-32 12c-16-8-22-20-24-32" />
+      </g>
+      <g fill="#e8c77b" class="fireflies">
+        <circle cx="238" cy="288" r="2" />
+        <circle cx="692" cy="322" r="1.6" />
+        <circle cx="1150" cy="306" r="1.8" />
+        <circle cx="988" cy="266" r="1.3" />
+      </g>
+    </svg>
+
+    <div class="shell footer-inner">
+      <div class="footer-top">
+        <div>
+          <p class="script">And so the story continues…</p>
+          <p class="footer-title">Dream. Create. <em>Grow.</em> <span aria-hidden="true">✨</span></p>
+        </div>
+        <div class="footer-cta">
+          <p>There's always room for one more idea, one more project, and one more kind person in the story.</p>
+          <a href="mailto:hlcforsberg97@gmail.com" class="footer-mail"><svg class="i" aria-hidden="true">
+              <use href="#i-mail" />
+            </svg> hlcforsberg97@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="footer-cols">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="monogram" aria-hidden="true">HF</span>
+            <span class="brand-text"><strong>Heaven Forsberg</strong><small>Digital creative · Artist · IndigiTECH
+                graduate</small></span>
+          </a>
+          <p class="footer-blurb">A portfolio grown from handmade roots: art, story, design, and a curious step into
+            technology.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <p class="footer-label">Wander back</p>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#studio">Studio</a></li>
+            <li><a href="#gallery">Artwork</a></li>
+            <li><a href="#journey">IndigiTECH</a></li>
+            <li><a href="#toolbox">Toolbox</a></li>
+            <li><a href="#marketing">Marketing</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <p class="footer-label">Find me</p>
+          <p><a href="mailto:hlcforsberg97@gmail.com" class="footer-text-link">hlcforsberg97@gmail.com</a></p>
+          <p><a href="https://hf0rsberg.portfolio.arena.site/"
+              class="footer-text-link">hf0rsberg.portfolio.arena.site</a></p>
+          <p><a href="https://www.linkedin.com/in/hf0rsberg/" class="footer-text-link" target="_blank"
+              rel="noopener noreferrer">LinkedIn · hf0rsberg</a></p>
+          <p class="footer-muted">Grande Prairie, Alberta</p>
+          <p class="footer-muted">Talhtan First Nation · Crow Clan</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="shell">
+        <!-- UPDATE ME: change the year if needed -->
+        <p>© 2026 Heaven Forsberg. A living portfolio — all artwork shown is Heaven's own.</p>
+        <a href="#top" class="to-top" aria-label="Back to the top of the page"><svg class="i" aria-hidden="true">
+            <use href="#i-up" />
+          </svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════ POPOVERS (no JavaScript needed) ═══════════════════════ -->
+
+  <!-- Affirmations -->
+  <div id="wish-1" popover class="wish-pop">
+    <p class="mono-label">✦ A little affirmation</p>
+    <p class="wish-text">You are allowed to be both a masterpiece and a work in progress.</p><button type="button"
+      class="text-link" popovertarget="wish-1" popovertargetaction="hide">Close</button>
+  </div>
+  <div id="wish-2" popover class="wish-pop">
+    <p class="mono-label">✦ A little affirmation</p>
+    <p class="wish-text">A handmade life is a brave and beautiful one.</p><button type="button" class="text-link"
+      popovertarget="wish-2" popovertargetaction="hide">Close</button>
+  </div>
+  <div id="wish-3" popover class="wish-pop">
+    <p class="mono-label">✦ A little affirmation</p>
+    <p class="wish-text">The next idea is already on its way to you.</p><button type="button" class="text-link"
+      popovertarget="wish-3" popovertargetaction="hide">Close</button>
+  </div>
+  <div id="wish-4" popover class="wish-pop">
+    <p class="mono-label">✦ A little affirmation</p>
+    <p class="wish-text">Stay curious, stay kind, and keep making.</p><button type="button" class="text-link"
+      popovertarget="wish-4" popovertargetaction="hide">Close</button>
+  </div>
+  <div id="wish-5" popover class="wish-pop">
+    <p class="mono-label">✦ A little affirmation</p>
+    <p class="wish-text">Create at your own pace. The forest does not rush.</p><button type="button" class="text-link"
+      popovertarget="wish-5" popovertargetaction="hide">Close</button>
+  </div>
+
+  <!-- Résumé -->
+  <div id="resume" popover class="resume-pop" aria-label="Heaven Forsberg résumé">
+    <div class="resume-bar">
+      <p>Résumé preview · press <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>P</kbd> to print or save as PDF</p>
+      <button type="button" class="lb-btn" popovertarget="resume" popovertargetaction="hide"
+        aria-label="Close résumé"><svg class="i" aria-hidden="true">
+          <use href="#i-x" />
+        </svg></button>
+    </div>
+    <article class="resume-sheet">
+      <header class="r-head">
+        <div>
+          <p class="r-kicker">Digital creative · IndigiTECH graduate</p>
+          <h2>Heaven Forsberg</h2>
+          <p class="r-sub">Digital Creative · Artist · IndigiTECH Graduate · Aspiring Technology Professional</p>
+        </div>
+        <ul class="r-contact">
+          <li>Grande Prairie, Alberta</li>
+          <li>hlcforsberg97@gmail.com</li>
+          <li><a href="https://hf0rsberg.portfolio.arena.site/">hf0rsberg.portfolio.arena.site</a></li>
+          <li><a href="https://www.linkedin.com/in/hf0rsberg/" target="_blank"
+              rel="noopener noreferrer">linkedin.com/in/hf0rsberg</a></li>
+          <li>Member, Talhtan First Nation · Crow Clan</li>
+        </ul>
+      </header>
+      <div class="r-grid">
+        <div>
+          <h3>Profile</h3>
+          <p>Multidisciplinary creative with experience in social media management, digital marketing, graphic design
+            and content creation. Completed the Indigenous Friends Association's 12-week IndigiTECH Mentorship Program
+            in 2026, with introductory training in web development, digital art, business and UX design. Seeking an
+            entry-level technology apprenticeship where creativity, communication and a strong willingness to learn are
+            valuable.</p>
+          <h3>Experience</h3>
+          <div class="r-job">
+            <p class="r-job-head"><strong>The Industry Live Entertainment Lounge</strong><span>April 2025 – September
+                2026</span></p>
+            <p class="r-role">Karaoke Hostess &amp; Social Media Manager</p>
+            <ul>
+              <li>Created social media content contributing to a reported 15% increase in engagement and customers
+                within four months.</li>
+              <li>Designed promotional graphics and videos.</li>
+              <li>Operated and troubleshot audiovisual equipment.</li>
+              <li>Organized karaoke rotations and digital logs.</li>
+            </ul>
+          </div>
+          <div class="r-job">
+            <p class="r-job-head"><strong>Angry Outdoor Kids</strong><span>November 2016 – October 2024</span></p>
+            <p class="r-role">Social Media Manager</p>
+            <ul>
+              <li>Created multimedia content across major social platforms.</li>
+              <li>Reported 50% growth in engagement and followers over eight years.</li>
+              <li>Used analytics to inform content strategies.</li>
+              <li>Designed graphics, promotional materials and merchandise vectors.</li>
+            </ul>
+          </div>
+          <div class="r-job">
+            <p class="r-job-head"><strong>Caregiving</strong><span>2008 – Present</span></p>
+            <p class="r-role">Caregiver</p>
+            <ul>
+              <li>Planning, organization and financial budgeting.</li>
+              <li>Coordination of schedules and daily responsibilities.</li>
+              <li>Communication, empathy, patience and problem-solving.</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <div class="r-box">
+            <p><strong>Indigenous Friends Association</strong></p>
+            <p>IndigiTECH Mentorship Program · 12 weeks · 2026</p>
+            <p>Certifications: Web Development · Digital Art · Business · UX Design</p>
+            <p class="r-muted">Foundational exposure to HTML, CSS, Figma and digital design tools.</p>
+          </div>
+          <h3>Tools &amp; skills</h3>
+          <p><strong>Web &amp; UX:</strong> HTML · CSS · Figma · UX Design Foundations</p>
+          <p><strong>Design &amp; content:</strong> Canva · Krita · CapCut · Cricut Design Space · Graphic Design ·
+            Social Media Content Creation</p>
+          <p><strong>Analytics &amp; productivity:</strong> Meta Business Suite Analytics · Google Workspace · Microsoft
+            365 · Digital Marketing Analytics</p>
+          <p><strong>AI &amp; emerging tech:</strong> Meta Prompting · Exploring AI-assisted creative workflows</p>
+          <h3>Professional strengths</h3>
+          <p>Creative Problem-Solving · Communication · Public Speaking · Teamwork · Organization · Time Management ·
+            Adaptability · Community Engagement</p>
+          <h3>Creative practice</h3>
+          <p>Makes handmade and digital work through a personal creative studio, Altered Scraps. Enjoys painting,
+            sewing, crafting, photography, reading, singing and exploring new artistic mediums.</p>
+        </div>
+      </div>
+      <p class="r-foot">Skills are presented honestly as introductory foundations built through mentorship, creative
+        projects and prior work experience. References available upon request.</p>
+    </article>
+  </div>
+</body>
+
+</html>
